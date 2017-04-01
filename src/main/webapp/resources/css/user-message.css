@@ -1,0 +1,40 @@
+.message-icon {
+	border-radius: 50% ;
+	height: 50px ;
+	width: 50px ;
+}
+
+.message-icon-container {
+	padding: 0px ;
+	
+	text-align: center ;
+}
+
+.message-block-container {
+	padding: 4px ;
+}
+
+.message-name {
+	height: 40px ;
+	margin-top:5px ;
+	padding-top: 5px ;
+}
+
+#user-message-container>div {
+	margin-top: 0px ;	 
+}
+
+#message-title {
+	font-size: 18px ; 
+	height: 40px ;
+}
+
+body {
+	overflow:hidden;
+}
+
+hr {
+	margin-top: 5px ;
+	margin-bottom: 5px;
+	padding: 0px !important;
+}

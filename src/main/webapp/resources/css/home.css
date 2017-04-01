@@ -1,0 +1,46 @@
+#left-bar {
+}
+
+#middle-bar {
+	height: auto ;
+}
+
+#right-bar {
+}
+
+.bar-style {
+	margin-top:0px !important;
+	overflow-y: hidden ;
+}
+
+#user-profile-image {
+	margin-top: 5px ;
+}
+
+#user-profile-tab {
+	padding-left: 50px ;
+	border: 1px solid red ;
+}
+
+#user-academic-details > div {
+	font-size: 16px ;
+	font-family: Arial ;
+}
+
+#user-profile-image > img {
+	height: 70px !important ;
+	width: 70px !important ;
+}
+
+.user-details {
+	margin-bottom: 5px;
+}
+
+.text-primary {
+	color: rgb(24,24,24);
+}
+
+hr {
+	margin-top: 10px !important ;
+	margin-bottom: 10px !important ;
+}
