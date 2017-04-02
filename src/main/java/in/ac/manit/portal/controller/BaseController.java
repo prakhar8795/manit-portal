@@ -22,7 +22,7 @@ public class BaseController {
 	private static String VIEW_INDEX = "signup";
 	MongoDBUtil mongoDB = new MongoDBUtil() ;
 	
-	 List<DBObject> feedList ;
+	List<DBObject> feedList ;
 	
 	@RequestMapping(value = "/signup", method = RequestMethod.GET)
 	public String signUp(ModelMap model) {

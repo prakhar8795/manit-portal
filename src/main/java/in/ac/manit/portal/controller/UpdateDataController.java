@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -34,14 +33,13 @@ public class UpdateDataController {
 			
 		    ProfileDataService pds = new ProfileDataService();
 		    
-		  if(!file.isEmpty()){
+		    if(!file.isEmpty()){
 		    	System.out.println("not Empty");
 		    	pds.uploadProfileImage(file);
 		    }
 		    
 		    
 			DBObject profileData = pds.updateProfileData(newUserHandle, newUserAbout) ;
-			
 			
 			mv.addObject("profile", profileData);
 			mv.addObject("successMessage","Profile Updated Successfully.");

@@ -28,7 +28,7 @@
 <div class="row">
 	<div class="col-md-3">
 	</div>
-	<div id="user-profile-tab" class="col-md-9">
+	<div id="user-profile-tab" class="col-md-8">
 		<h3>Basic Details</h3>
 		<hr />
 		<form id="profileForm" method="POST" action="profile" enctype="multipart/form-data">
