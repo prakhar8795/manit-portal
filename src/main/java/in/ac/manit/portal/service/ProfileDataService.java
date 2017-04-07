@@ -1,5 +1,9 @@
 package in.ac.manit.portal.service;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
@@ -237,5 +241,25 @@ public class ProfileDataService {
 		DBCursor cursor = coll.find(whereQuery);
 		DBObject obj = cursor.next();
 		return obj;
+	}
+
+	public List<String> getDataByYearBranch(String year, String branch) {
+		
+		BasicDBObject yearBranchQuery = new BasicDBObject();
+		List<BasicDBObject> obj = new ArrayList<BasicDBObject>();
+		obj.add(new BasicDBObject("batch", year));
+		obj.add(new BasicDBObject("branch", branch));
+		yearBranchQuery.put("$and", obj);
+		
+		List<String>yearBranchResult = new ArrayList<String>();
+		
+		DBCursor cursor = db.getCollection("studentData").find(yearBranchQuery);
+		while(cursor.hasNext()) {
+			DBObject o = cursor.next() ;
+			yearBranchResult.add(o.toString());
+			System.out.println(o.toString());
+		}
+		
+		return yearBranchResult ;
 	}
 }

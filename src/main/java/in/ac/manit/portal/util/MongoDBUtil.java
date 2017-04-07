@@ -13,7 +13,7 @@ public class MongoDBUtil {
 	public static DB dbStatic = null ;
 	
 	
-	public boolean initializeDBConnection()
+	public static boolean initializeDBConnection()
 	{
 		try {
 			// Since 2.10.0, uses MongoClient

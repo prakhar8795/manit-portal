@@ -46,6 +46,14 @@
 			<div class="text-primary">${profile.email}</div>
 			<div class="text-primary">${profile.dob}</div>
 		</div>
+		
+		<div>
+			<form method="POST" action="message">
+				<input type="text" name="userName" value="${profile.userName }" />
+				<input type="text" name="userID" value="${profile.userID }" />
+				<button class="btn btn-default btn-sm">Send Message</button>
+			</form>
+		</div>
 		<hr />
 	</div>
 	<div class="col-md-1">
