@@ -72,17 +72,30 @@
 			            <!-- Body -->
 			            <div class="panel-body">
 			            <div >
-							${feed.caption }
+							${feed.content }
 			            </div>
+					    <c:if test = "${feed.imageURL != 'NA'}">
 			            <div class="panel-image hide-panel-body center-align">
-					    	<img src="<c:url value="${feed.contentURL }"/>" class="panel-image-preview"/>
+					    	<img src="<c:url value="${feed.imageURL }"/>" class="panel-image-preview"/>
 					    </div>
+					    </c:if>
 					    </div>
 			            <!-- /Body -->
 			    
 			            <!-- Footer -->
 			            <div class="panel-footer">
-			                <small>Footer is also supported!</small>
+			       		<c:if test = "${feed.fileURL != 'NA'}">
+			            <div>
+					    	Attached File - 
+					    	<a href="<c:url value="${feed.fileURL }"/>" target="_blank">${feed.fileName }</a>
+					    </div>
+					    </c:if>
+					    <c:if test = "${feed.videoURL != 'NA'}">
+			            <div>
+					    	Video Link -
+					    	<a href="<c:url value="${feed.videoURL }"/>" target="_blank">Video</a>
+					    </div>
+					    </c:if>
 			            </div>
 			            <!-- /Footer -->
 			        </article>

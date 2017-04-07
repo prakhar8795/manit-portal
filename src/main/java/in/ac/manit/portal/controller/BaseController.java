@@ -7,10 +7,13 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.mongodb.BasicDBList;
 import com.mongodb.DBObject;
 
+import in.ac.manit.portal.service.MailSenderService;
 import in.ac.manit.portal.service.NewsFeedService;
 import in.ac.manit.portal.service.ProfileDataService;
 import in.ac.manit.portal.util.MongoDBUtil;
@@ -57,13 +60,13 @@ public class BaseController {
 		{
 			redirectAttributes.addFlashAttribute("name", userID);
 			//Getting NewsFeed From Database
-			NewsFeedService nfs = new NewsFeedService();
-			feedList = nfs.getAllFeeds();
 			
 			DBObject profileData = null ;
 			ProfileDataService pds = new ProfileDataService();
 			profileData = pds.getProfileData(userID) ;
 			
+			NewsFeedService nfs = new NewsFeedService();
+			feedList = nfs.getAllFeeds(profileData);
 			
 			redirectAttributes.addFlashAttribute("feedList", feedList) ;
 			redirectAttributes.addFlashAttribute("profile", profileData) ;
@@ -93,19 +96,62 @@ public class BaseController {
 
 	}
 	
+	@RequestMapping(value = "/passwordRecovery", method = RequestMethod.POST)
+	@ResponseBody
+	public String passwordRecovery(@RequestParam ("userInput") String userInput) {
+		
+		
+		MailSenderService mss = new MailSenderService();
+		ProfileDataService pds = new ProfileDataService();
+		Boolean isID = pds.isIDOrHandle(userInput);
+		String flag;
+		System.out.println(isID+" IDD");
+		if(isID){
+			flag = pds.userIDAvailability(userInput);
+			
+			if(flag.equals("true")){
+				flag = "false";
+			}
+			
+			else{
+				flag = "true";
+				DBObject userData = pds.getUserDataWithUserID(userInput);
+				DBObject userCredential = pds.getUserCredentialWithUserID(userInput);
+				mss.sendMail(userData.get("email").toString(), userData.get("userName").toString(), userCredential.get("password").toString());
+			}
+			
+		}
+		
+		else{
+			flag = pds.userHandleAvailability(userInput);
+			
+			if(flag.equals("true")){
+				flag = "false";
+			}
+			
+			else{
+				flag = "true";
+				DBObject userData = pds.getUserDataWithUserHandle(userInput);
+				DBObject userCredential = pds.getUserCredentialWithUserHandle(userInput);
+				mss.sendMail(userData.get("email").toString(), userData.get("userName").toString(), userCredential.get("password").toString());
+			}
+		}
+		
+		return "{\"flag\": "+ flag + "}" ;
+	}
+	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home(ModelMap model) {
 		VIEW_INDEX = "home";
 		model.addAttribute("message", "Welcome");
 		model.addAttribute("counter", ++counter);
-
-		//Getting NewsFeed From Database
-		NewsFeedService nfs = new NewsFeedService();
-		feedList = nfs.getAllFeeds();
 		
 		DBObject profileData = null ;
 		ProfileDataService pds = new ProfileDataService();
 		profileData = pds.getProfileData() ;
+		
+		NewsFeedService nfs = new NewsFeedService();
+		feedList = nfs.getAllFeeds(profileData);
 		
 		model.addAttribute("feedList", feedList);
 		model.addAttribute("profile", profileData) ;
@@ -160,8 +206,13 @@ public class BaseController {
 	 ProfileDataService pds = new ProfileDataService();
 	 profileData = pds.getProfileData() ;
 		
+	 String semester = pds.getSemester(profileData.get("batch").toString());
+	 BasicDBList subjectList = pds.getStudentSubjectData(profileData.get("branch").toString(), semester);
+	 List<DBObject> branches = pds.getBranchNames();
 	 
 	 model.addAttribute("profile", profileData) ;
+	 model.addAttribute("subjectList",subjectList);
+	 model.addAttribute("branchList",branches);
 
 	 // Spring uses InternalResourceViewResolver and return back index.jsp
 	 return VIEW_INDEX;

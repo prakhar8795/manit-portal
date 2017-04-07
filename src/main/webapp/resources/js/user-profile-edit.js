@@ -9,6 +9,8 @@ window.onload = function(){
 function checkUserHandle(){
 	
 	var handle = $('#userHandle').val();
+	console.log(handle);
+	console.log("sadsad");
 	$('#checkButton').prop('disabled',true);
 	console.log(currHandle);
 	if(handle == currHandle){

@@ -42,7 +42,7 @@ public class MongoDBUtil {
 	
 	public boolean authenticateUser(String name, String pass)
 	{
-		DBCollection table = dbStatic.getCollection("studentCredentials");
+		DBCollection table = dbStatic.getCollection("userCredentials");
 		
 		BasicDBObject andQuery = new BasicDBObject();
 		ArrayList<BasicDBObject> obj = new ArrayList<BasicDBObject>();
