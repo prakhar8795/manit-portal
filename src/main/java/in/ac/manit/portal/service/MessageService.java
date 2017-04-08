@@ -26,15 +26,13 @@ public class MessageService {
 	
 	
 	private DB db = null ;
-	private DBCollection table = null ;
 	
 	public MessageService() {
-		MongoDBUtil.initializeDBConnection() ;
 		db = MongoDBUtil.dbStatic ;
-		table = db.getCollection("conversationIdData") ;
 	}
 	
 	public DBObject getAllMessagesID(String userID) {
+		DBCollection table = db.getCollection("conversationIdData") ;
 		if(table!=null) {
 			BasicDBObject whereQuery = new BasicDBObject();
 			whereQuery.put("userID", userID);
@@ -53,6 +51,7 @@ public class MessageService {
 	}
 	
 	private boolean insertFirstConversationRecord(String id) {
+		DBCollection table = db.getCollection("conversationIdData") ;
 		try {
 			BasicDBObject newUser = new BasicDBObject();
 			newUser.put("userID", id) ;
@@ -68,6 +67,7 @@ public class MessageService {
 	}
 	
 	private List<UserMessage> getConversationsByID(String id) {
+		DBCollection table = db.getCollection("conversationIdData") ;
 		BasicDBObject searchQuery = new BasicDBObject() ;
 		searchQuery.put("userID", id) ;
 		DBCursor cursor = table.find(searchQuery) ;
@@ -97,6 +97,7 @@ public class MessageService {
 	
 	private boolean updateConversationIDs(String id, List<UserMessage>conversationIDs) {
 		
+		DBCollection table = db.getCollection("conversationIdData") ;
 		BasicDBObject searchQuery = new BasicDBObject();
 		searchQuery.put("userID", id) ;
 		

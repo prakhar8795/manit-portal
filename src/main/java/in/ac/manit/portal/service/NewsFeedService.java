@@ -23,11 +23,12 @@ public class NewsFeedService {
 	private static String UPLOADED_FOLDER = "C://Users//ASHISH BAGHEL//workspace//portal//src//main//webapp//resources//";
 	
 	DB db = MongoDBUtil.dbStatic;
-	DBCollection table = db.getCollection("newsFeed");
 	
 	
-	
-	
+	public NewsFeedService() {
+		db = MongoDBUtil.dbStatic ;
+	}
+		
 	public boolean isFeedVisible(DBObject profileData,String [] scope) {
 
 		int len = scope.length;
@@ -121,31 +122,32 @@ public class NewsFeedService {
 	
 	public List<DBObject> getAllFeeds(DBObject profileData) {
 	
-	DBCursor cursor = table.find();
-	List<DBObject> feedList = cursor.toArray();
-	List<DBObject> finalFeed = new ArrayList<DBObject>();
-	int len = feedList.size();
+		DBCollection table = db.getCollection("newsFeed");
+		DBCursor cursor = table.find();
+		List<DBObject> feedList = cursor.toArray();
+		List<DBObject> finalFeed = new ArrayList<DBObject>();
+		int len = feedList.size();
+		
+		for(int i=0;i<len;i++) {
+			
+			String [] scope;
+			DBObject obj = feedList.get(i);
+			String scopeString = obj.get("scopeList").toString();
+			int length = scopeString.split(",").length;
+			scope = new String[length];
+			
+			for(int j=0; j<length; j++) {
+				scope[j] = scopeString.split(",")[j];
+			}
+			
+			if(isFeedVisible(profileData,scope)){
+				finalFeed.add(obj);
+			}
 	
-	for(int i=0;i<len;i++) {
-		
-		String [] scope;
-		DBObject obj = feedList.get(i);
-		String scopeString = obj.get("scopeList").toString();
-		int length = scopeString.split(",").length;
-		scope = new String[length];
-		
-		for(int j=0; j<length; j++) {
-			scope[j] = scopeString.split(",")[j];
 		}
 		
-		if(isFeedVisible(profileData,scope)){
-			finalFeed.add(obj);
-		}
-
-	}
-	
-	Collections.reverse(finalFeed);
-	return finalFeed;
+		Collections.reverse(finalFeed);
+		return finalFeed;
 	}
 	
 	public void saveNewPost(String content, String videoLink, CommonsMultipartFile image, CommonsMultipartFile file, String scopeList){
@@ -178,6 +180,7 @@ public class NewsFeedService {
 	
 	public void addNewPostIntoTable(String content, String videoLink, String imageRelativePath, String fileRelativePath, String fileName, String scopeList){
 		
+		DBCollection table = db.getCollection("newsFeed");
 		System.out.println(videoLink.length());
 		if(videoLink.length() == 0)
 		{
@@ -201,8 +204,13 @@ public class NewsFeedService {
 		doc.put("scopeList", scopeList);
 		
 		table.insert(doc);
-		
 	}
 	
-	
+	public List<DBObject> getAllFeeds(){
+		DBCollection table = db.getCollection("newsFeed");
+		DBCursor cursor = table.find();
+		List<DBObject> feedList  = cursor.toArray();
+		return feedList;
+	}
+
 }

@@ -12,16 +12,15 @@ import com.mongodb.MongoClient;
 public class MongoDBUtil {
 	public static DB dbStatic = null ;
 	
+	public MongoDBUtil() {
+		initializeDBConnection() ;
+	}
 	
-	public static boolean initializeDBConnection()
+	private boolean initializeDBConnection()
 	{
 		try {
-			// Since 2.10.0, uses MongoClient
 			MongoClient mongo = new MongoClient( "localhost" , 27017 );
 			dbStatic = mongo.getDB("test");
-			//insertIntoDB();
-			
-			
 			return true ;
 		} catch(Exception e) {
 			System.out.println("Excetion Occured" + e.toString()) ;

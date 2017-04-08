@@ -27,6 +27,8 @@
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 	</bean>
 	
+	<bean name="MongoDBUtil" class="in.ac.manit.portal.util.MongoDBUtil" scope="singleton" ></bean>
+	
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	
 	<mvc:annotation-driven />

@@ -1,6 +1,10 @@
 package in.ac.manit.portal.controller;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -18,17 +22,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.DBObject;
 
 import in.ac.manit.portal.service.MailSenderService;
+import in.ac.manit.portal.service.AuthenticationService;
+
 import in.ac.manit.portal.service.NewsFeedService;
 import in.ac.manit.portal.service.ProfileDataService;
-import in.ac.manit.portal.util.MongoDBUtil;
 
 @Controller
 public class BaseController {
 
 	private static String VIEW_INDEX = "signup";
-	MongoDBUtil mongoDB = new MongoDBUtil() ;
 	
-	List<DBObject> feedList ;
 	
 	@ExceptionHandler(MissingServletRequestParameterException.class)
 	public String handleMissingParams(MissingServletRequestParameterException ex) {
@@ -59,11 +62,16 @@ public class BaseController {
 	
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String Authenticate(@RequestParam ("userID") String userID, 
-			@RequestParam ("password") String pass, RedirectAttributes redirectAttributes, ModelMap model) {
-		if(mongoDB.authenticateUser(userID, pass))
+			@RequestParam ("password") String pass, RedirectAttributes redirectAttributes, ModelMap model, HttpServletRequest request ) {
+		
+		AuthenticationService as = new AuthenticationService() ;
+		if(as.authenticateUser(userID, pass))
 		{
 			redirectAttributes.addFlashAttribute("name", userID);
+			
 			//Getting NewsFeed From Database
+			List<DBObject> feedList = new ArrayList<DBObject>() ;
+			
 			
 			DBObject profileData = null ;
 			ProfileDataService pds = new ProfileDataService();
@@ -72,9 +80,12 @@ public class BaseController {
 			NewsFeedService nfs = new NewsFeedService();
 			feedList = nfs.getAllFeeds(profileData);
 			
-			
 			redirectAttributes.addFlashAttribute("feedList", feedList) ;
 			redirectAttributes.addFlashAttribute("profile", profileData) ;
+			
+			HttpSession session = request.getSession() ;
+			session.setAttribute("userID", userID);
+			System.out.println(session.getAttribute("userID"));
 			
 			return "redirect:/home";
 			
@@ -142,7 +153,14 @@ public class BaseController {
 
 	@RequestMapping(value = "/getDataByYearBranch" , method = RequestMethod.POST)
 	@ResponseBody
-	public String getDataByYearBranch(@RequestParam("year") String year, @RequestParam("branch") String branch) {
+	public String getDataByYearBranch(@RequestParam("year") String year, @RequestParam("branch") String branch,
+			HttpServletRequest request) {
+		
+		HttpSession session = request.getSession() ;
+		if(!checkValidSession(session)) {
+			return null ;
+		}
+		
 		ProfileDataService pds = new ProfileDataService() ;
 		ObjectMapper mapper = new ObjectMapper();
 		String jsonInString = null ;
@@ -157,12 +175,18 @@ public class BaseController {
 	}
 	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
-	public String home(ModelMap model) {
+	public String home(ModelMap model, HttpServletRequest request) {
+		
+		HttpSession session = request.getSession() ;
+		if(!checkValidSession(session)) {
+			return "error" ;
+		}
+		
 		VIEW_INDEX = "home";
 		
 		//Getting NewsFeed From Database
-		NewsFeedService nfs = new NewsFeedService();
-		feedList = nfs.getAllFeeds();
+		
+		List<DBObject> feedList = new ArrayList<DBObject>() ;
 		
 		DBObject profileData = null ;
 		ProfileDataService pds = new ProfileDataService();
@@ -178,7 +202,12 @@ public class BaseController {
 	}
 	
 	@RequestMapping(value = "/result", method = RequestMethod.GET)
-	public String result(ModelMap model) {
+	public String result(ModelMap model, HttpServletRequest request) {
+		
+		HttpSession session = request.getSession() ;
+		if(!checkValidSession(session)) {
+			return "error" ;
+		}
 		
 		VIEW_INDEX = "result";
 		return VIEW_INDEX;
@@ -228,6 +257,22 @@ public class BaseController {
 		 model.addAttribute("profile", profileData) ;
 		 return VIEW_INDEX;
 
+	 }
+	 
+	 private boolean checkValidSession(HttpSession session) {
+		 if(session.getAttribute("userID")!=null) {
+			 System.out.println("Reached Here!!") ;
+			 long currentTime = System.currentTimeMillis() ;
+			 long lastAccessed = session.getLastAccessedTime() ;
+			 System.out.println(currentTime-lastAccessed) ;
+			 if((currentTime - lastAccessed)>30*60*60) {
+				 return false ;
+			 }
+			 else {
+				 return true ;
+			 }
+		 }
+		 return false ;
 	 }
 	 
 }
