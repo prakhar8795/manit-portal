@@ -18,6 +18,11 @@
 </head>
 <body>
 
+<style>
+body {
+background-image:none !important;
+}
+</style>
 <h3>Oops!</h3>
 <h4>The page you were trying to access failed to load. Please <a href="login">login</a> to continue!</h4>
 

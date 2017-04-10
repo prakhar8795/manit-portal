@@ -1,8 +1,5 @@
 package in.ac.manit.portal.service;
 
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,7 +24,7 @@ public class ProfileDataService {
 	
 	public static DBObject profileData = null ;
 	 
-	private static String UPLOADED_FOLDER = "C://Users//ASHISH BAGHEL//workspace//portal//src//main//webapp//resources//images//profile//";
+	private static String UPLOADED_FOLDER = "C://Users//Abhi//workspace//portal//src//main//webapp//resources//images//profile//";
 	
 	public DBObject getProfileData(String userID){
 	
@@ -39,10 +36,6 @@ public class ProfileDataService {
 		
 		return profileData;
 	
-	}
-	
-	public DBObject getProfileData(){
-		return profileData;
 	}
 	
 	public String userHandleAvailability(String userHandle){
@@ -114,7 +107,7 @@ public class ProfileDataService {
 	
    public String getYear(String batch){
 	   
-	   String start = batch.split("-")[0];
+	   String start = batch ;
 	   DateAndTimeUtil dt = new DateAndTimeUtil();
 	   String date = dt.getCurrentDate();
 	   String currYear = date.split("/")[2];
@@ -128,7 +121,7 @@ public class ProfileDataService {
    }
 	
    public String getSemester(String batch){
-	   String start = batch.split("-")[0];
+	   String start = batch;
 	   
 	   DateAndTimeUtil dt = new DateAndTimeUtil();
 	   String date = dt.getCurrentDate();
@@ -253,7 +246,7 @@ public class ProfileDataService {
 		
 		List<String>yearBranchResult = new ArrayList<String>();
 		
-		DBCursor cursor = db.getCollection("studentData").find(yearBranchQuery);
+		DBCursor cursor = db.getCollection("userData").find(yearBranchQuery);
 		while(cursor.hasNext()) {
 			DBObject o = cursor.next() ;
 			yearBranchResult.add(o.toString());

@@ -22,7 +22,7 @@ public class AuthenticationService {
 	
 	public boolean authenticateUser(String name, String pass)
 	{
-		DBCollection table = db.getCollection("studentCredentials");
+		DBCollection table = db.getCollection("userCredentials");
 		
 		BasicDBObject andQuery = new BasicDBObject();
 		ArrayList<BasicDBObject> obj = new ArrayList<BasicDBObject>();

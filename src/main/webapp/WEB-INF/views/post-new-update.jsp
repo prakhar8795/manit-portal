@@ -15,19 +15,29 @@
 
 <script src="<c:url value="/resources/js/post-new-update.js" />" ></script>
 
+<style>
+body{
+        padding-top:60px !important;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkYxpdBvLbBdEnM2iQ2erYxVhqQc2sP2aabJlDWJlh-8de7liRLA") !important;
+        background-repeat: repeat !important ;
+        background-size: contain !important;
+    }
+</style>
+
 </head>
 <body>
 
 <jsp:include page="/WEB-INF/views/user-nav-bar.jsp"></jsp:include>
+<script src="<c:url value="/resources/js/sidenav-chatbot.js" />" ></script>
 
 <div class="container-fluid">
-	<div class="col-md-2"></div>
+	<div class="col-md-3"></div>
 	<form action="post" method="POST" enctype="multipart/form-data">
 	<div>
 		<input type="text" id="scope-list" name="scope-list" style="display:none"></input>
 		<input type="text" id="user-id" style="display:none" value="${profile.userID}"></input>
 	</div>
-	<div class="col-md-10" style="border:1px solid black;">
+	<div class="col-md-8" style="border:1px solid black; background-color:white;">
 		<h3>Post New Update</h3>
 		<hr />
 		<div class="col-md-6">

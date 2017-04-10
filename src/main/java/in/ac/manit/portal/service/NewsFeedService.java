@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import com.mongodb.BasicDBList;
@@ -20,7 +22,7 @@ import in.ac.manit.portal.util.SaveUploadedFileUtil;
 
 public class NewsFeedService {
 	
-	private static String UPLOADED_FOLDER = "C://Users//ASHISH BAGHEL//workspace//portal//src//main//webapp//resources//";
+	private static String UPLOADED_FOLDER = "C://Users//Abhi//workspace//portal//src//main//webapp//resources//";
 	
 	DB db = MongoDBUtil.dbStatic;
 	
@@ -150,7 +152,7 @@ public class NewsFeedService {
 		return finalFeed;
 	}
 	
-	public void saveNewPost(String content, String videoLink, CommonsMultipartFile image, CommonsMultipartFile file, String scopeList){
+	public void saveNewPost(String content, String videoLink, CommonsMultipartFile image, CommonsMultipartFile file, String scopeList, HttpSession session){
 		
 		String imageRelativePath="NA";
 		String fileRelativePath="NA";
@@ -174,11 +176,11 @@ public class NewsFeedService {
 	    }
 	    
 	    
-	    addNewPostIntoTable(content, videoLink, imageRelativePath, fileRelativePath, fileName, scopeList);
+	    addNewPostIntoTable(content, videoLink, imageRelativePath, fileRelativePath, fileName, scopeList, session);
 		
 	}
 	
-	public void addNewPostIntoTable(String content, String videoLink, String imageRelativePath, String fileRelativePath, String fileName, String scopeList){
+	public void addNewPostIntoTable(String content, String videoLink, String imageRelativePath, String fileRelativePath, String fileName, String scopeList, HttpSession session){
 		
 		DBCollection table = db.getCollection("newsFeed");
 		System.out.println(videoLink.length());
@@ -190,7 +192,7 @@ public class NewsFeedService {
 		DateAndTimeUtil dt = new DateAndTimeUtil();
 		
 		ProfileDataService pds = new ProfileDataService();
-		DBObject profileData = pds.getProfileData();
+		DBObject profileData = pds.getProfileData((String)session.getAttribute("userID"));
 		BasicDBObject doc = new BasicDBObject();
 		doc.put("userID", profileData.get("userID"));
 		doc.put("userName", profileData.get("userName"));

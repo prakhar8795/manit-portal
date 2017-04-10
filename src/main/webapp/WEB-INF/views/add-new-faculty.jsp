@@ -21,20 +21,11 @@
 <jsp:include page="/WEB-INF/views/user-nav-bar.jsp"></jsp:include>
 
 <div class="container-fluid">
-
-<div class="col-md-12">
+<div class="col-md-3"></div>
+<div class="col-md-9">
 	<h3>Add New Faculty</h3>
 	<hr />
 	<div class="row" id="add-faculty-container" style="border:1px solid red; background-color: grey;">
-		<div class="col-md-3" style="border:1px solid blue;">
-			<div class="list-group">
-			  <button type="button" class="list-group-item list-group-item-action active">Personal Details</button>
-			  <button type="button" class="list-group-item list-group-item-action">Personal Details</button>
-			  <button type="button" class="list-group-item list-group-item-action">Personal Details</button>
-			  <button type="button" class="list-group-item list-group-item-action">Personal Details</button>
-			  <button type="button" class="list-group-item list-group-item-action">Personal Details</button>
-			</div>
-		</div>
 		<div class="col-md-8" style="background-color:white">
 			<h4>Update Personal Details</h4>
 			<hr />
@@ -52,19 +43,32 @@
 					</dd>
 				</dl>
 				<dl class="form-group">
+					<dt><label for="email">Date of Birth</label></dt>
+					<dd>
+						<input id="dob" type="date" class="form-control" required />
+					</dd>
+				</dl>
+				<dl class="form-group">
 					<dt><label for="email">Email</label></dt>
 					<dd>
 						<input id="email" class="form-control" required />
 					</dd>
 				</dl>
 				<dl class="form-group">
-					<button class="btn btn-primary btn-sm">Next</button>
+					<div class="message-options-description">
+						<select class="form-control">
+						  <option value="volvo">Select Branch</option>
+						  <option value="Computer Science">Computer Science</option>
+						  <option value="Electronics and Communication">Electronics and Communication</option>
+						</select>
+					</div>
 				</dl>
+				
 			</div>
 	</div>
 </div>
 
 </div>
-
+</div>
 </body>
 </html>

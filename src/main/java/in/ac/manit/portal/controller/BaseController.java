@@ -60,6 +60,16 @@ public class BaseController {
 		
 	}
 	
+	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+	public String logout(ModelMap model, HttpServletRequest request) {
+		
+		VIEW_INDEX = "login";
+		HttpSession session = request.getSession() ;
+		session.removeAttribute("userID");
+		return "redirect:/login" ;
+		
+	}
+	
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String Authenticate(@RequestParam ("userID") String userID, 
 			@RequestParam ("password") String pass, RedirectAttributes redirectAttributes, ModelMap model, HttpServletRequest request ) {
@@ -190,7 +200,7 @@ public class BaseController {
 		
 		DBObject profileData = null ;
 		ProfileDataService pds = new ProfileDataService();
-		profileData = pds.getProfileData() ;
+		profileData = pds.getProfileData((String)session.getAttribute("userID")) ;
 		
 		NewsFeedService nfs = new NewsFeedService();
 		feedList = nfs.getAllFeeds(profileData);
@@ -209,51 +219,68 @@ public class BaseController {
 			return "error" ;
 		}
 		
+		DBObject profileData = null ;
+		ProfileDataService pds = new ProfileDataService();
+		profileData = pds.getProfileData((String)session.getAttribute("userID")) ;
+				
+		model.addAttribute("profile", profileData) ;
+		
 		VIEW_INDEX = "result";
 		return VIEW_INDEX;
 
 	}
 	
 	@RequestMapping(value = "/profile", method = RequestMethod.GET)
-	public String profile(ModelMap model) {
+	public String profile(ModelMap model, HttpServletRequest request) {
 
+		HttpSession session = request.getSession() ;
+		if(!checkValidSession(session)) {
+			return "error" ;
+		}
+		
 		VIEW_INDEX = "user-profile-edit";
 		DBObject profileData = null ;
 		ProfileDataService pds = new ProfileDataService();
-		profileData = pds.getProfileData() ;		
+		profileData = pds.getProfileData((String)session.getAttribute("userID")) ;		
 		model.addAttribute("profile", profileData) ;
 		return VIEW_INDEX;
 		
 	}
 	
 	 @RequestMapping(value = "/post", method = RequestMethod.GET)
-	 public String postUpdate(ModelMap model) {
-
-		 VIEW_INDEX = "post-new-update";
-	 DBObject profileData = null ;
-	 ProfileDataService pds = new ProfileDataService();
-	 profileData = pds.getProfileData() ;
-		
-	 String semester = pds.getSemester(profileData.get("batch").toString());
-	 BasicDBList subjectList = pds.getStudentSubjectData(profileData.get("branch").toString(), semester);
-	 List<DBObject> branches = pds.getBranchNames();
-	 
-	 model.addAttribute("profile", profileData) ;
-	 model.addAttribute("subjectList",subjectList);
-	 model.addAttribute("branchList",branches);
-
-	 // Spring uses InternalResourceViewResolver and return back index.jsp
-	 return VIEW_INDEX;
+	 public String postUpdate(ModelMap model, HttpServletRequest request) {
+		 
+	 	HttpSession session = request.getSession() ;
+		if(!checkValidSession(session)) {
+			return "error" ;
+		}
+		VIEW_INDEX = "post-new-update";
+		DBObject profileData = null ;
+		ProfileDataService pds = new ProfileDataService();
+		profileData = pds.getProfileData((String)session.getAttribute("userID")) ;
+		 String semester = pds.getSemester(profileData.get("batch").toString());
+		 BasicDBList subjectList = pds.getStudentSubjectData(profileData.get("branch").toString(), semester);
+		 List<DBObject> branches = pds.getBranchNames();
+		 
+		 model.addAttribute("profile", profileData) ;
+		 model.addAttribute("subjectList",subjectList);
+		 model.addAttribute("branchList",branches);
+	
+		 // Spring uses InternalResourceViewResolver and return back index.jsp
+		 return VIEW_INDEX;
 
 	 }
 
 	 @RequestMapping(value = "/add", method = RequestMethod.GET)
-	 public String addFaculty(ModelMap model) {
-		 
+	 public String addFaculty(ModelMap model, HttpServletRequest request) {
+		 HttpSession session = request.getSession() ;
+		 	if(!checkValidSession(session)) {
+			return "error" ;
+		 }
 		 VIEW_INDEX = "add-new-faculty";
 		 DBObject profileData = null ;
 		 ProfileDataService pds = new ProfileDataService();
-		 profileData = pds.getProfileData() ;	 
+		 profileData = pds.getProfileData((String)session.getAttribute("userID")) ;	 
 		 model.addAttribute("profile", profileData) ;
 		 return VIEW_INDEX;
 

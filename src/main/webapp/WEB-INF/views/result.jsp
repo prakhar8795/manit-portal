@@ -25,6 +25,14 @@
 
 <jsp:include page="/WEB-INF/views/user-nav-bar.jsp"></jsp:include>
 
+<style>
+
+#sidenav {
+	display:none; 
+}
+
+</style>
+
 <div class="content clearfix container">
 	<div id="divBranchSem">
 		<label for="selBranchSem" class="control-label">Select the class: </label>

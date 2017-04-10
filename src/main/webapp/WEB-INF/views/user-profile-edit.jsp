@@ -17,18 +17,27 @@
 
 
 <script src="<c:url value="/resources/js/user-profile-edit.js" />" ></script>
+<style>
+body{
+        padding-top:60px !important;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkYxpdBvLbBdEnM2iQ2erYxVhqQc2sP2aabJlDWJlh-8de7liRLA") !important;
+        background-repeat: repeat !important ;
+        background-size: contain !important;
+    }
+</style>
 
 </head>
-
 <body>
 
 <jsp:include page="/WEB-INF/views/user-nav-bar.jsp"></jsp:include>
+<script src="<c:url value="/resources/js/sidenav-chatbot.js" />" ></script>
+
 
 <div class="page-content container clearfix">
 <div class="row">
 	<div class="col-md-3">
 	</div>
-	<div id="user-profile-tab" class="col-md-9">
+	<div id="user-profile-tab" class="col-md-9" style="background-color:white;">
 		<h3>Basic Details</h3>
 		<hr />
 		<form id="profileForm" method="POST" action="profile" enctype="multipart/form-data">
@@ -60,7 +69,7 @@
 						</dd>
 					</dl>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4" style="z-index:0;">
 					<div id="profileImage" class="user-details"><img src="<c:url value="${profile.imageURL }"/>"/></div>
 					<input type="file" class="filestyle" data-buttonText="Upload" id="uploadedImage" name="uploadedImage">
 					
@@ -114,5 +123,6 @@
 	</div>
 </div>
 </div>
+
 </body>
 </html>

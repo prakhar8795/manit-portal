@@ -6,7 +6,7 @@ $( document ).ready(function() {
     });
     
     $(".message-block-container, .message-block-container-new").mouseleave(function() {
-    	$(this).css("background-color","white") ;
+    	$(this).css("background-color","transparent") ;
     });
     
     $("#student").click(function() {
@@ -138,5 +138,9 @@ $( document ).ready(function() {
     	$("#submit-message-form").submit() ;
     	
     });
+    
+    $(document).on("DOMSubtreeModified propertychange", ".box", function(e) {
+		$(this).animate({ scrollTop: $(this).prop("scrollHeight") }, 100);
+	});
     
 });
