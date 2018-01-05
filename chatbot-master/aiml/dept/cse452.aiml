@@ -1,0 +1,2988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCT _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCT CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>OVERSEE _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>OVERSEE CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ TEACH _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER TEACH CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCTS _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCTS CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISE _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISE CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCT _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCT CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ PROFESSOR _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>NAME PROFESSOR CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TAUGHT _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TAUGHT PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ TEACHER _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>NAME TEACHER CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TEACHER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TEACH _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TEACH TEACHER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>ASSIGN _ CLASS _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>ASSIGN CLASS CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCT _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCT CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCTS _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCTS CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TAUGHT</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TAUGHT</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ TEACH _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER TEACH CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCTS _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCTS CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TEACH</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TEACH</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCT _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCT CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ TEACH _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TELL TEACH CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISOR _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISOR CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCTS _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCTS CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TEACH _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TEACH PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSRUCTING _ CSE452 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSRUCTING CSE452 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ SUPERVISOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 SUPERVISOR</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH _ CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH CSE452</pattern>
+	<template><srai>INSTRUCTOR E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>INSTRUCTOR E452</pattern>
+	<template>
+		<random>
+			<li>$Professor R. K. Pateriya is teaching CSE452. </li>
+			<li>$Professor R. K. Pateriya will be teaching CSE452. </li>
+			<li>$Instructor of CSE452 is Professor R. K. Pateriya. </li>
+			<li>$CSE452 is running under instruction of Professor R. K. Pateriya. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ HOURS _ GIVE _ CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY HOURS GIVE CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ WORTH _ MANY _ CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 WORTH MANY CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>KITNE _ CREDITS _ KA _ HAI _ CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>KITNE CREDITS KA HAI CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ CREDITS _ CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER CREDITS CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ CREDITS _ ADDITION</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 CREDITS ADDITION</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ WORTH _ NUMBER _ CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 WORTH NUMBER CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ CSE452 _ WORTH</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS CSE452 WORTH</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CREDITS _ CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CREDITS CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ GIVE _ MANY _ CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 GIVE MANY CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUM _ HOURS _ GIVE _ WEEKLY _ CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUM HOURS GIVE WEEKLY CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ GET _ COMPLETE _ CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS GET COMPLETE CSE452</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>ADDITION _ CSE452 _ CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<category>
+	<pattern>ADDITION CSE452 CREDITS</pattern>
+	<template><srai>CREDITS E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>CREDITS E452</pattern>
+	<template>
+		<random>
+			<li>$CS E452 is worth 3 credits. </li>
+			<li>$CS E452 is of 3 credits. </li>
+			<li>$3 credits are awarded on successful completion of CSE452. </li>
+			<li>$3 credits. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>OUTLINE _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>OUTLINE CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ GO _ TEACH _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER GO TEACH CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ PLAN _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE PLAN CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>GET _ LEARN _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>GET LEARN CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS _ SCREEN _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS SCREEN CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ PROFESSOR _ TEACH _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>TELL PROFESSOR TEACH CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS _ INCLUDE _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS INCLUDE CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CONTENT _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CONTENT CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>ENLIGHTEN _ COMPLETE _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>ENLIGHTEN COMPLETE CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS _ SCREEN _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS SCREEN CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ COURSEOFSTUDY _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE COURSEOFSTUDY CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ COURSEOFSTUDY</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 COURSEOFSTUDY</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ OUTLINE</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 OUTLINE</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>LEARN _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>LEARN CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ SCOPE</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 SCOPE</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>EXPECT _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>EXPECT CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>SCOPE _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>SCOPE CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ GO _ TEACH _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR GO TEACH CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ SURVEY</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 SURVEY</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ EXPECT _ TEACH _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR EXPECT TEACH CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY _ SCREEN _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY SCREEN CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY _ CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY CSE452</pattern>
+	<template><srai>SYLLABUS E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>SYLLABUS E452</pattern>
+	<template>
+		<random>
+			<li>$The syllabus for CSE452 is  Engineering application of Optimization, Formulation of design problems as mathematical programming problems, General Structure of Optimization Algorithms ,Constraints, The Feasible Region, Branches of Mathematical Programming ,Gradient Information, The Taylor Series, Types of extrema,  Necessary and Sufficient Conditions for Local Minima and Maxima, Classification of Stationary Points , Convex and Concave Functions, Optimization of Convex Functions, General Properties of Algorithms ,An Algorithm as a Point-to-Point  Mapping, An Algorithm as a Point-to-Set Mapping Closed Algorithms , Descent Functions, Global  Convergence, Rates of Convergence.. </li>
+			<li>$ Engineering application of Optimization, Formulation of design problems as mathematical programming problems, General Structure of Optimization Algorithms ,Constraints, The Feasible Region, Branches of Mathematical Programming ,Gradient Information, The Taylor Series, Types of extrema,  Necessary and Sufficient Conditions for Local Minima and Maxima, Classification of Stationary Points , Convex and Concave Functions, Optimization of Convex Functions, General Properties of Algorithms ,An Algorithm as a Point-to-Point  Mapping, An Algorithm as a Point-to-Set Mapping Closed Algorithms , Descent Functions, Global  Convergence, Rates of Convergence. is taught in CSE452. </li>
+			<li>$Prof. R. K. Pateriya will teach  Engineering application of Optimization, Formulation of design problems as mathematical programming problems, General Structure of Optimization Algorithms ,Constraints, The Feasible Region, Branches of Mathematical Programming ,Gradient Information, The Taylor Series, Types of extrema,  Necessary and Sufficient Conditions for Local Minima and Maxima, Classification of Stationary Points , Convex and Concave Functions, Optimization of Convex Functions, General Properties of Algorithms ,An Algorithm as a Point-to-Point  Mapping, An Algorithm as a Point-to-Set Mapping Closed Algorithms , Descent Functions, Global  Convergence, Rates of Convergence. in CSE452. </li>
+			<li>$ Engineering application of Optimization, Formulation of design problems as mathematical programming problems, General Structure of Optimization Algorithms ,Constraints, The Feasible Region, Branches of Mathematical Programming ,Gradient Information, The Taylor Series, Types of extrema,  Necessary and Sufficient Conditions for Local Minima and Maxima, Classification of Stationary Points , Convex and Concave Functions, Optimization of Convex Functions, General Properties of Algorithms ,An Algorithm as a Point-to-Point  Mapping, An Algorithm as a Point-to-Set Mapping Closed Algorithms , Descent Functions, Global  Convergence, Rates of Convergence.. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CSE452 _ COURSE _ TITLE</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 COURSE TITLE</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CSE452 _ TITLE</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CSE452 TITLE</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ NAME</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 NAME</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TITLE _ CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TITLE CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ COURSE _ NAME</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 COURSE NAME</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ NAME _ CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE NAME CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ NAME _ CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN NAME CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CODE _ CSE452 _ NAME</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CODE CSE452 NAME</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>NAME CSE452</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TITLE</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TITLE</pattern>
+	<template><srai>TITLE E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>TITLE E452</pattern>
+	<template>
+		<random>
+			<li>$The course name of CSE452 is Optimization Techniques. </li>
+			<li>$The course title of CSE452 is Optimization Techniques. </li>
+			<li>$Course code CSE452 is Optimization Techniques. </li>
+			<li>$CSE452 is Optimization Techniques. </li>
+			<li>$Optimization Techniques. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ STATISTICS _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT STATISTICS CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RETURN _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RETURN CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ SURVEY _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT SURVEY CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ SURVEY _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT SURVEY CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ SURVEY _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT SURVEY CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ STATS _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT STATS CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ RETURN _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT RETURN CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ USE _ CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT USE CSE452</pattern>
+	<template><srai>STUDENTSTRENGTH E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>STUDENTSTRENGTH E452</pattern>
+	<template>
+		<random>
+			<li>$There are 184 students in CSE452. </li>
+			<li>$There are 184 students in Optimization Techniques. </li>
+			<li>$184 students are enrolled in CSE452. </li>
+			<li>$184 students are enrolled in Optimization Techniques. </li>
+			<li>$184 students have signed up for CSE452. </li>
+			<li>$184 students have signed up for Optimization Techniques. </li>
+			<li>$The student strength of CSE452 is 184. </li>
+			<li>$The student strength of Optimization Techniques is 184. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ CLASS _ RETURN</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 CLASS RETURN</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TIME _ SLOT</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TIME SLOT</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ RETURN</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 RETURN</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ LECTURE _ CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE LECTURE CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE452 _ LECTURE</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE452 LECTURE</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ CSE452 _ CLASS _ RETURN</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME CSE452 CLASS RETURN</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ SLOT _ CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME SLOT CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TOPOGRAPHICPOINT _ CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TOPOGRAPHICPOINT CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE452 _ CLASS</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE452 CLASS</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ VENUE</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 VENUE</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME CSE452</pattern>
+	<template><srai>VENUE E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>VENUE E452</pattern>
+	<template>
+		<random>
+			<li>$The venue is New Teaching Block and timeslot is 1 hour for CSE452. </li>
+			<li>$The venue is New Teaching Block and timeslot is 1 hour for CSE452. </li>
+			<li>$The classes are held in New Teaching Block and timeslot is 1 hour for CSE452. </li>
+			<li>$The classes are held in New Teaching Block and timeslot is 1 hour for CSE452. </li>
+			<li>$The venue and timeslot are New Teaching Block and 1 hour respectively for CSE452. </li>
+			<li>$The venue and timeslot are New Teaching Block and 1 hour respectively for CSE452. </li>
+			<li>$The venue is New Teaching Block, the timeslot is 1 hour for CSE452. </li>
+			<li>$The venue is New Teaching Block, the timeslot is 1 hour for CSE452. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ AP _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AP CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AP CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>AP _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>AP CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AP CS747</pattern>
+	<template><srai>GRADE_AP E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AP E452</pattern>
+	<template>
+		<random>
+			<li>$AP grade for exceptional performance was given to 1 student in CSE452, 2014. </li>
+			<li>$AP grade for exceptional performance was given to 1 student in Optimization Techniques, 2014. </li>
+			<li>$1 student got AP grade for exceptional performance in CSE452, 2014. </li>
+			<li>$1 student got AP grade for exceptional performance in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting AP grade was 1 for exceptional performance in CSE452, 2014. </li>
+			<li>$Number of students getting AP grade was 1 for exceptional performance in Optimization Techniques, 2014. </li>
+			<li>$1. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AA CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>AA _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>AA CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AA CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ AA _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AA CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AA CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<category>
+	<pattern>AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AA E452</pattern>
+	<template>
+		<random>
+			<li>$AA grade was given to 9 students in CSE452, 2014. </li>
+			<li>$AA grade was given to 9 students in Optimization Techniques, 2014. </li>
+			<li>$9 students got AA grade in CSE452, 2014. </li>
+			<li>$9 students got AA grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting AA grade was 9 in CSE452, 2014. </li>
+			<li>$Number of students getting AA grade was 9 in Optimization Techniques, 2014. </li>
+			<li>$9. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ AB _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AB CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AB CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>AB _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>AB CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AB CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AB CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AB E452</pattern>
+	<template>
+		<random>
+			<li>$AB grade was given to 14 students in CSE452, 2014. </li>
+			<li>$AB grade was given to 14 students in Optimization Techniques, 2014. </li>
+			<li>$14 students got AB grade in CSE452, 2014. </li>
+			<li>$14 students got AB grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting AB grade was 14 in CSE452, 2014. </li>
+			<li>$Number of students getting AB grade was 14 in Optimization Techniques, 2014. </li>
+			<li>$14. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BB CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BB CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>BB _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>BB CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BB CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ BB _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY BB CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_BB E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_BB E452</pattern>
+	<template>
+		<random>
+			<li>$BB grade was given to 35 students in CSE452, 2014. </li>
+			<li>$BB grade was given to 35 students in Optimization Techniques, 2014. </li>
+			<li>$35 students got BB grade in CSE452, 2014. </li>
+			<li>$35 students got BB grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting BB grade was 35 in CSE452, 2014. </li>
+			<li>$Number of students getting BB grade was 35 in Optimization Techniques, 2014. </li>
+			<li>$35. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BC CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>BC _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>BC CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BC CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ BC _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY BC CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BC CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_BC E452</pattern>
+	<template>
+		<random>
+			<li>$BC grade was given to 21 students in CSE452, 2014. </li>
+			<li>$BC grade was given to 21 students in Optimization Techniques, 2014. </li>
+			<li>$21 students got BC grade in CSE452, 2014. </li>
+			<li>$21 students got BC grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting BC grade was 21 in CSE452, 2014. </li>
+			<li>$Number of students getting BC grade was 21 in Optimization Techniques, 2014. </li>
+			<li>$21. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CC CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CC _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CC CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>CC _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>CC CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CC CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CC CS747</pattern>
+	<template><srai>GRADE_CC E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_CC E452</pattern>
+	<template>
+		<random>
+			<li>$CC grade was given to 2 students in CSE452, 2014. </li>
+			<li>$CC grade was given to 2 students in Optimization Techniques, 2014. </li>
+			<li>$2 students got CC grade in CSE452, 2014. </li>
+			<li>$2 students got CC grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting CC grade was 2 in CSE452, 2014. </li>
+			<li>$Number of students getting CC grade was 2 in Optimization Techniques, 2014. </li>
+			<li>$2. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CD CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CD _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CD CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CD CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>CD _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>CD CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CD CS747</pattern>
+	<template><srai>GRADE_CD E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_CD E452</pattern>
+	<template>
+		<random>
+			<li>$CD grade was given to 2 students in CSE452, 2014. </li>
+			<li>$CD grade was given to 2 students in Optimization Techniques, 2014. </li>
+			<li>$2 students got CD grade in CSE452, 2014. </li>
+			<li>$2 students got CD grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting CD grade was 2 in CSE452, 2014. </li>
+			<li>$Number of students getting CD grade was 2 in Optimization Techniques, 2014. </li>
+			<li>$2. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DD CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DD _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DD CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DD CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>DD _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>DD CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DD CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_DD E452</pattern>
+	<template>
+		<random>
+			<li>$DD grade was given to 8 students in CSE452, 2014. </li>
+			<li>$DD grade was given to 8 students in Optimization Techniques, 2014. </li>
+			<li>$8 students got DD grade in CSE452, 2014. </li>
+			<li>$8 students got DD grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting DD grade was 8 in CSE452, 2014. </li>
+			<li>$Number of students getting DD grade was 8 in Optimization Techniques, 2014. </li>
+			<li>$8. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DX CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>DX _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>DX CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DX CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DX CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DX _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DX CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_DX E452</pattern>
+	<template>
+		<random>
+			<li>$DX grade was given to 0 students in CSE452, 2014. </li>
+			<li>$DX grade was given to 0 students in Optimization Techniques, 2014. </li>
+			<li>$0 students got DX grade in CSE452, 2014. </li>
+			<li>$0 students got DX grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting DX grade was 0 in CSE452, 2014. </li>
+			<li>$Number of students getting DX grade was 0 in Optimization Techniques, 2014. </li>
+			<li>$0. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT FR CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET FR CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE FR CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ FR _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY FR CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>FR _ CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<category>
+	<pattern>FR CS747</pattern>
+	<template><srai>GRADE_FR E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_FR E452</pattern>
+	<template>
+		<random>
+			<li>$FR grade was given to 3 students in CSE452, 2014. </li>
+			<li>$FR grade was given to 3 students in Optimization Techniques, 2014. </li>
+			<li>$3 students got FR grade in CSE452, 2014. </li>
+			<li>$3 students got FR grade in Optimization Techniques, 2014. </li>
+			<li>$Number of students getting FR grade was 3 in CSE452, 2014. </li>
+			<li>$Number of students getting FR grade was 3 in Optimization Techniques, 2014. </li>
+			<li>$3. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CLASS _ STATS _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS STATS CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER CLASS GIVE CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CLASS GIVE CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE _ CLASS _ STATISTICS _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE CLASS STATISTICS CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE _ SCALING _ STATS _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE SCALING STATS CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS _ STATISTICS _ CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS STATISTICS CS747</pattern>
+	<template><srai>GRADES E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADES E452</pattern>
+	<template>
+		<random>
+			<li>$The grading statistics for CSE452, 2014 are:- [AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+			<li>$The grading statistics for Optimization Techniques, 2014 are:- [AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+			<li>$[AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CSE452 _ SURVEY _ MATERIAL</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 SURVEY MATERIAL</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ MENTION</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 MENTION</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUGGEST _ GOOD _ BOOK _ CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>SUGGEST GOOD BOOK CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ BOOK</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 BOOK</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY _ MATERIAL _ CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY MATERIAL CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK _ CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>READ _ CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>READ CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>MENTION _ CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>MENTION CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK _ RECOMMEND _ CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK RECOMMEND CSE452</pattern>
+	<template><srai>REFERENCES E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>REFERENCES E452</pattern>
+	<template>
+		<random>
+			<li>$The references are 1. Practical Optimization Algorithms and Engineering Applications Andreas Antoniou 2. An Introduction to Optimization Edwin K., P. Chong and Stanislaw h. Zak  for CSE452. </li>
+			<li>$The references are 1. Practical Optimization Algorithms and Engineering Applications Andreas Antoniou 2. An Introduction to Optimization Edwin K., P. Chong and Stanislaw h. Zak  for Optimization Techniques. </li>
+			<li>$References according to Professor R. K. Pateriya are 1. Practical Optimization Algorithms and Engineering Applications Andreas Antoniou 2. An Introduction to Optimization Edwin K., P. Chong and Stanislaw h. Zak  for CSE452. </li>
+			<li>$1. Practical Optimization Algorithms and Engineering Applications Andreas Antoniou 2. An Introduction to Optimization Edwin K., P. Chong and Stanislaw h. Zak . </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TYPE _ CSE452 _ COURSE</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE CSE452 COURSE</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ THEORY _ LAB</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 THEORY LAB</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TYPE</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TYPE</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE _ CSE452</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE CSE452</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ LAB _ THEORY</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 LAB THEORY</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ THEORY _ COURSE _ LAB</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 THEORY COURSE LAB</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>THEORY _ LAB _ CSE452</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>THEORY LAB CSE452</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>LAB _ THEORY _ CSE452</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<category>
+	<pattern>LAB THEORY CSE452</pattern>
+	<template><srai>TYPE E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>TYPE E452</pattern>
+	<template>
+		<random>
+			<li>$CSE452 is a Theory course. </li>
+			<li>$It's a Theory course . </li>
+			<li>$Theory. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TIME _ TIMEPERIOD _ CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME TIMEPERIOD CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>MUCH _ SEMESTER _ CSE452 _ RETURN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>MUCH SEMESTER CSE452 RETURN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ DURATION _ CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>TIME DURATION CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DAYS _ CSE452 _ RUN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DAYS CSE452 RUN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ DURATION</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 DURATION</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER _ CSE452 _ GET _ STRETCH</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER CSE452 GET STRETCH</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ SPAN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 SPAN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>SPAN _ CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>SPAN CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER _ CSE452 _ RUN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER CSE452 RUN</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ TIME _ TIMEPERIOD</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 TIME TIMEPERIOD</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CALENDARMONTH _ RETURN _ COMPLETE _ CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CALENDARMONTH RETURN COMPLETE CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>DURATION _ CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>DURATION CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ LENGTH</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 LENGTH</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH _ CSE452 _ COURSE</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH CSE452 COURSE</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH _ CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH CSE452</pattern>
+	<template><srai>DURATION E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>DURATION E452</pattern>
+	<template>
+		<random>
+			<li>$CSE452 is a Full Semester course. </li>
+			<li>$It's a Full Semester course . </li>
+			<li>$CSE452 is Full Semester long . </li>
+			<li>$Full Semester. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>HOME _ PAGE _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>HOME PAGE CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>HOMEPAGE _ LINK _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>HOMEPAGE LINK CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ WEBSITE _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>TELL WEBSITE CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ LINK _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN LINK CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>LINK _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>LINK CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>KNOW _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>KNOW CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ PROFILE _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN PROFILE CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSITE _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSITE CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ WEBSITE _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN WEBSITE CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>URL _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>URL CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>DISCOVERY _ INFORMATION _ CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>DISCOVERY INFORMATION CSE452</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ URL</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 URL</pattern>
+	<template><srai>HOMEPAGE E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>HOMEPAGE E452</pattern>
+	<template>
+		<random>
+			<li>$Please visit http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF for more information on CSE452</li>
+			<li>$Please visit http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF for more information on Optimization Techniques</li>
+			<li>$The course page is http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+			<li>$Course Website is http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+			<li>$http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>PREREQUISTE _ CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTE CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ BASH _ CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE BASH CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ PREREQUISTE</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 PREREQUISTE</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ PREREQUISTES</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 PREREQUISTES</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQ _ CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQ CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTES _ CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTES CSE452</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 _ PREREQ</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<category>
+	<pattern>CSE452 PREREQ</pattern>
+	<template><srai>PREREQUISITES E452</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>PREREQUISITES E452</pattern>
+	<template>
+		<random>
+			<li>$Prerequisites: None</li>
+			<li>$You should have completed None to register for CSE452</li>
+			<li>$You should have completed None to register for Optimization Techniques</li>
+			<li>$None. </li>
+		</random>
+	</template>
+</category>
+
+</aiml>

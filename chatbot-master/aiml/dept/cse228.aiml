@@ -1,0 +1,2988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCT _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCT CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>OVERSEE _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>OVERSEE CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ TEACH _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER TEACH CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCTS _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCTS CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISE _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISE CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCT _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCT CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ PROFESSOR _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>NAME PROFESSOR CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TAUGHT _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TAUGHT PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ TEACHER _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>NAME TEACHER CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TEACHER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TEACH _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TEACH TEACHER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>ASSIGN _ CLASS _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>ASSIGN CLASS CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCT _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCT CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCTS _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCTS CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TAUGHT</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TAUGHT</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ TEACH _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER TEACH CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCTS _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCTS CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TEACH</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TEACH</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCT _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCT CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ TEACH _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TELL TEACH CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISOR _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISOR CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCTS _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCTS CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TEACH _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TEACH PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSRUCTING _ CSE228 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSRUCTING CSE228 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ SUPERVISOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 SUPERVISOR</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH _ CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH CSE228</pattern>
+	<template><srai>INSTRUCTOR E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>INSTRUCTOR E228</pattern>
+	<template>
+		<random>
+			<li>$Professor Nilay Khare is teaching CSE228. </li>
+			<li>$Professor Nilay Khare will be teaching CSE228. </li>
+			<li>$Instructor of CSE228 is Professor Nilay Khare. </li>
+			<li>$CSE228 is running under instruction of Professor Nilay Khare. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ HOURS _ GIVE _ CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY HOURS GIVE CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ WORTH _ MANY _ CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 WORTH MANY CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>KITNE _ CREDITS _ KA _ HAI _ CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>KITNE CREDITS KA HAI CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ CREDITS _ CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER CREDITS CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ CREDITS _ ADDITION</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 CREDITS ADDITION</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ WORTH _ NUMBER _ CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 WORTH NUMBER CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ CSE228 _ WORTH</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS CSE228 WORTH</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CREDITS _ CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CREDITS CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ GIVE _ MANY _ CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 GIVE MANY CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUM _ HOURS _ GIVE _ WEEKLY _ CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUM HOURS GIVE WEEKLY CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ GET _ COMPLETE _ CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS GET COMPLETE CSE228</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>ADDITION _ CSE228 _ CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<category>
+	<pattern>ADDITION CSE228 CREDITS</pattern>
+	<template><srai>CREDITS E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>CREDITS E228</pattern>
+	<template>
+		<random>
+			<li>$CS E228 is worth 1 credits. </li>
+			<li>$CS E228 is of 1 credits. </li>
+			<li>$1 credits are awarded on successful completion of CSE228. </li>
+			<li>$1 credits. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>OUTLINE _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>OUTLINE CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ GO _ TEACH _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER GO TEACH CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ PLAN _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE PLAN CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>GET _ LEARN _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>GET LEARN CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS _ SCREEN _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS SCREEN CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ PROFESSOR _ TEACH _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>TELL PROFESSOR TEACH CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS _ INCLUDE _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS INCLUDE CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CONTENT _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CONTENT CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>ENLIGHTEN _ COMPLETE _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>ENLIGHTEN COMPLETE CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS _ SCREEN _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS SCREEN CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ COURSEOFSTUDY _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE COURSEOFSTUDY CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ COURSEOFSTUDY</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 COURSEOFSTUDY</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ OUTLINE</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 OUTLINE</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>LEARN _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>LEARN CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ SCOPE</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 SCOPE</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>EXPECT _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>EXPECT CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>SCOPE _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>SCOPE CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ GO _ TEACH _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR GO TEACH CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ SURVEY</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 SURVEY</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ EXPECT _ TEACH _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR EXPECT TEACH CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY _ SCREEN _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY SCREEN CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY _ CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY CSE228</pattern>
+	<template><srai>SYLLABUS E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>SYLLABUS E228</pattern>
+	<template>
+		<random>
+			<li>$The syllabus for CSE228 is Fundamentals of algorithm, asymptotic complexity, recursive algorithms, recurrence relation, heap, priority queue and heap sort.  Algorithm Design Techniques their control abstractions and related problems: Divide and conquer, Greedy strategy, Dynamic programming, Backtracking, Branch and bound, least cost search. Introduction to lower-bound theory, Search Trees: BST, AVL, B and B+ trees. Introduction to NP-Complete and NP Hard problems. . </li>
+			<li>$Fundamentals of algorithm, asymptotic complexity, recursive algorithms, recurrence relation, heap, priority queue and heap sort.  Algorithm Design Techniques their control abstractions and related problems: Divide and conquer, Greedy strategy, Dynamic programming, Backtracking, Branch and bound, least cost search. Introduction to lower-bound theory, Search Trees: BST, AVL, B and B+ trees. Introduction to NP-Complete and NP Hard problems.  is taught in CSE228. </li>
+			<li>$Prof. Nilay Khare will teach Fundamentals of algorithm, asymptotic complexity, recursive algorithms, recurrence relation, heap, priority queue and heap sort.  Algorithm Design Techniques their control abstractions and related problems: Divide and conquer, Greedy strategy, Dynamic programming, Backtracking, Branch and bound, least cost search. Introduction to lower-bound theory, Search Trees: BST, AVL, B and B+ trees. Introduction to NP-Complete and NP Hard problems.  in CSE228. </li>
+			<li>$Fundamentals of algorithm, asymptotic complexity, recursive algorithms, recurrence relation, heap, priority queue and heap sort.  Algorithm Design Techniques their control abstractions and related problems: Divide and conquer, Greedy strategy, Dynamic programming, Backtracking, Branch and bound, least cost search. Introduction to lower-bound theory, Search Trees: BST, AVL, B and B+ trees. Introduction to NP-Complete and NP Hard problems. . </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CSE228 _ COURSE _ TITLE</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 COURSE TITLE</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CSE228 _ TITLE</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CSE228 TITLE</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ NAME</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 NAME</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TITLE _ CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TITLE CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ COURSE _ NAME</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 COURSE NAME</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ NAME _ CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE NAME CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ NAME _ CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN NAME CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CODE _ CSE228 _ NAME</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CODE CSE228 NAME</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>NAME CSE228</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TITLE</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TITLE</pattern>
+	<template><srai>TITLE E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>TITLE E228</pattern>
+	<template>
+		<random>
+			<li>$The course name of CSE228 is ADA Lab. </li>
+			<li>$The course title of CSE228 is ADA Lab. </li>
+			<li>$Course code CSE228 is ADA Lab. </li>
+			<li>$CSE228 is ADA Lab. </li>
+			<li>$ADA Lab. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ STATISTICS _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT STATISTICS CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RETURN _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RETURN CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ SURVEY _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT SURVEY CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ SURVEY _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT SURVEY CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ SURVEY _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT SURVEY CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ STATS _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT STATS CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ RETURN _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT RETURN CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ USE _ CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT USE CSE228</pattern>
+	<template><srai>STUDENTSTRENGTH E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>STUDENTSTRENGTH E228</pattern>
+	<template>
+		<random>
+			<li>$There are 184 students in CSE228. </li>
+			<li>$There are 184 students in ADA Lab. </li>
+			<li>$184 students are enrolled in CSE228. </li>
+			<li>$184 students are enrolled in ADA Lab. </li>
+			<li>$184 students have signed up for CSE228. </li>
+			<li>$184 students have signed up for ADA Lab. </li>
+			<li>$The student strength of CSE228 is 184. </li>
+			<li>$The student strength of ADA Lab is 184. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ CLASS _ RETURN</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 CLASS RETURN</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TIME _ SLOT</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TIME SLOT</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ RETURN</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 RETURN</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ LECTURE _ CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE LECTURE CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE228 _ LECTURE</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE228 LECTURE</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ CSE228 _ CLASS _ RETURN</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME CSE228 CLASS RETURN</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ SLOT _ CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME SLOT CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TOPOGRAPHICPOINT _ CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TOPOGRAPHICPOINT CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE228 _ CLASS</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE228 CLASS</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ VENUE</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 VENUE</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME CSE228</pattern>
+	<template><srai>VENUE E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>VENUE E228</pattern>
+	<template>
+		<random>
+			<li>$The venue is CSE Department and timeslot is 1 hour for CSE228. </li>
+			<li>$The venue is CSE Department and timeslot is 1 hour for CSE228. </li>
+			<li>$The classes are held in CSE Department and timeslot is 1 hour for CSE228. </li>
+			<li>$The classes are held in CSE Department and timeslot is 1 hour for CSE228. </li>
+			<li>$The venue and timeslot are CSE Department and 1 hour respectively for CSE228. </li>
+			<li>$The venue and timeslot are CSE Department and 1 hour respectively for CSE228. </li>
+			<li>$The venue is CSE Department, the timeslot is 1 hour for CSE228. </li>
+			<li>$The venue is CSE Department, the timeslot is 1 hour for CSE228. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ AP _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AP CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AP CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>AP _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>AP CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AP CS747</pattern>
+	<template><srai>GRADE_AP E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AP E228</pattern>
+	<template>
+		<random>
+			<li>$AP grade for exceptional performance was given to 1 student in CSE228, 2014. </li>
+			<li>$AP grade for exceptional performance was given to 1 student in ADA Lab, 2014. </li>
+			<li>$1 student got AP grade for exceptional performance in CSE228, 2014. </li>
+			<li>$1 student got AP grade for exceptional performance in ADA Lab, 2014. </li>
+			<li>$Number of students getting AP grade was 1 for exceptional performance in CSE228, 2014. </li>
+			<li>$Number of students getting AP grade was 1 for exceptional performance in ADA Lab, 2014. </li>
+			<li>$1. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AA CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>AA _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>AA CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AA CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ AA _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AA CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AA CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<category>
+	<pattern>AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AA E228</pattern>
+	<template>
+		<random>
+			<li>$AA grade was given to 9 students in CSE228, 2014. </li>
+			<li>$AA grade was given to 9 students in ADA Lab, 2014. </li>
+			<li>$9 students got AA grade in CSE228, 2014. </li>
+			<li>$9 students got AA grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting AA grade was 9 in CSE228, 2014. </li>
+			<li>$Number of students getting AA grade was 9 in ADA Lab, 2014. </li>
+			<li>$9. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ AB _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AB CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AB CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>AB _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>AB CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AB CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AB CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AB E228</pattern>
+	<template>
+		<random>
+			<li>$AB grade was given to 14 students in CSE228, 2014. </li>
+			<li>$AB grade was given to 14 students in ADA Lab, 2014. </li>
+			<li>$14 students got AB grade in CSE228, 2014. </li>
+			<li>$14 students got AB grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting AB grade was 14 in CSE228, 2014. </li>
+			<li>$Number of students getting AB grade was 14 in ADA Lab, 2014. </li>
+			<li>$14. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BB CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BB CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>BB _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>BB CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BB CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ BB _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY BB CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_BB E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_BB E228</pattern>
+	<template>
+		<random>
+			<li>$BB grade was given to 35 students in CSE228, 2014. </li>
+			<li>$BB grade was given to 35 students in ADA Lab, 2014. </li>
+			<li>$35 students got BB grade in CSE228, 2014. </li>
+			<li>$35 students got BB grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting BB grade was 35 in CSE228, 2014. </li>
+			<li>$Number of students getting BB grade was 35 in ADA Lab, 2014. </li>
+			<li>$35. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BC CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>BC _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>BC CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BC CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ BC _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY BC CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BC CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_BC E228</pattern>
+	<template>
+		<random>
+			<li>$BC grade was given to 21 students in CSE228, 2014. </li>
+			<li>$BC grade was given to 21 students in ADA Lab, 2014. </li>
+			<li>$21 students got BC grade in CSE228, 2014. </li>
+			<li>$21 students got BC grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting BC grade was 21 in CSE228, 2014. </li>
+			<li>$Number of students getting BC grade was 21 in ADA Lab, 2014. </li>
+			<li>$21. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CC CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CC _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CC CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>CC _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>CC CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CC CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CC CS747</pattern>
+	<template><srai>GRADE_CC E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_CC E228</pattern>
+	<template>
+		<random>
+			<li>$CC grade was given to 2 students in CSE228, 2014. </li>
+			<li>$CC grade was given to 2 students in ADA Lab, 2014. </li>
+			<li>$2 students got CC grade in CSE228, 2014. </li>
+			<li>$2 students got CC grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting CC grade was 2 in CSE228, 2014. </li>
+			<li>$Number of students getting CC grade was 2 in ADA Lab, 2014. </li>
+			<li>$2. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CD CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CD _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CD CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CD CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>CD _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>CD CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CD CS747</pattern>
+	<template><srai>GRADE_CD E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_CD E228</pattern>
+	<template>
+		<random>
+			<li>$CD grade was given to 2 students in CSE228, 2014. </li>
+			<li>$CD grade was given to 2 students in ADA Lab, 2014. </li>
+			<li>$2 students got CD grade in CSE228, 2014. </li>
+			<li>$2 students got CD grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting CD grade was 2 in CSE228, 2014. </li>
+			<li>$Number of students getting CD grade was 2 in ADA Lab, 2014. </li>
+			<li>$2. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DD CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DD _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DD CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DD CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>DD _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>DD CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DD CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_DD E228</pattern>
+	<template>
+		<random>
+			<li>$DD grade was given to 8 students in CSE228, 2014. </li>
+			<li>$DD grade was given to 8 students in ADA Lab, 2014. </li>
+			<li>$8 students got DD grade in CSE228, 2014. </li>
+			<li>$8 students got DD grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting DD grade was 8 in CSE228, 2014. </li>
+			<li>$Number of students getting DD grade was 8 in ADA Lab, 2014. </li>
+			<li>$8. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DX CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>DX _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>DX CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DX CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DX CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DX _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DX CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_DX E228</pattern>
+	<template>
+		<random>
+			<li>$DX grade was given to 0 students in CSE228, 2014. </li>
+			<li>$DX grade was given to 0 students in ADA Lab, 2014. </li>
+			<li>$0 students got DX grade in CSE228, 2014. </li>
+			<li>$0 students got DX grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting DX grade was 0 in CSE228, 2014. </li>
+			<li>$Number of students getting DX grade was 0 in ADA Lab, 2014. </li>
+			<li>$0. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT FR CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET FR CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE FR CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ FR _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY FR CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>FR _ CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<category>
+	<pattern>FR CS747</pattern>
+	<template><srai>GRADE_FR E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_FR E228</pattern>
+	<template>
+		<random>
+			<li>$FR grade was given to 3 students in CSE228, 2014. </li>
+			<li>$FR grade was given to 3 students in ADA Lab, 2014. </li>
+			<li>$3 students got FR grade in CSE228, 2014. </li>
+			<li>$3 students got FR grade in ADA Lab, 2014. </li>
+			<li>$Number of students getting FR grade was 3 in CSE228, 2014. </li>
+			<li>$Number of students getting FR grade was 3 in ADA Lab, 2014. </li>
+			<li>$3. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CLASS _ STATS _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS STATS CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER CLASS GIVE CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CLASS GIVE CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE _ CLASS _ STATISTICS _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE CLASS STATISTICS CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE _ SCALING _ STATS _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE SCALING STATS CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS _ STATISTICS _ CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS STATISTICS CS747</pattern>
+	<template><srai>GRADES E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADES E228</pattern>
+	<template>
+		<random>
+			<li>$The grading statistics for CSE228, 2014 are:- [AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+			<li>$The grading statistics for ADA Lab, 2014 are:- [AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+			<li>$[AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CSE228 _ SURVEY _ MATERIAL</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 SURVEY MATERIAL</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ MENTION</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 MENTION</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUGGEST _ GOOD _ BOOK _ CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>SUGGEST GOOD BOOK CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ BOOK</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 BOOK</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY _ MATERIAL _ CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY MATERIAL CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK _ CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>READ _ CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>READ CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>MENTION _ CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>MENTION CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK _ RECOMMEND _ CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK RECOMMEND CSE228</pattern>
+	<template><srai>REFERENCES E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>REFERENCES E228</pattern>
+	<template>
+		<random>
+			<li>$The references are References: 1. Computer Algorithms Horowitz and Sahani. 2. Introduction to Algorithms Cormen and Rivest 3. An Introduction to Algorithms Thomas H Cormen,Ronald L. Rivest  for CSE228. </li>
+			<li>$The references are References: 1. Computer Algorithms Horowitz and Sahani. 2. Introduction to Algorithms Cormen and Rivest 3. An Introduction to Algorithms Thomas H Cormen,Ronald L. Rivest  for ADA Lab. </li>
+			<li>$References according to Professor Nilay Khare are References: 1. Computer Algorithms Horowitz and Sahani. 2. Introduction to Algorithms Cormen and Rivest 3. An Introduction to Algorithms Thomas H Cormen,Ronald L. Rivest  for CSE228. </li>
+			<li>$References: 1. Computer Algorithms Horowitz and Sahani. 2. Introduction to Algorithms Cormen and Rivest 3. An Introduction to Algorithms Thomas H Cormen,Ronald L. Rivest . </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TYPE _ CSE228 _ COURSE</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE CSE228 COURSE</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ THEORY _ LAB</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 THEORY LAB</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TYPE</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TYPE</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE _ CSE228</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE CSE228</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ LAB _ THEORY</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 LAB THEORY</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ THEORY _ COURSE _ LAB</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 THEORY COURSE LAB</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>THEORY _ LAB _ CSE228</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>THEORY LAB CSE228</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>LAB _ THEORY _ CSE228</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<category>
+	<pattern>LAB THEORY CSE228</pattern>
+	<template><srai>TYPE E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>TYPE E228</pattern>
+	<template>
+		<random>
+			<li>$CSE228 is a Lab course. </li>
+			<li>$It's a Lab course . </li>
+			<li>$Lab. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TIME _ TIMEPERIOD _ CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME TIMEPERIOD CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>MUCH _ SEMESTER _ CSE228 _ RETURN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>MUCH SEMESTER CSE228 RETURN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ DURATION _ CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>TIME DURATION CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DAYS _ CSE228 _ RUN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DAYS CSE228 RUN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ DURATION</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 DURATION</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER _ CSE228 _ GET _ STRETCH</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER CSE228 GET STRETCH</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ SPAN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 SPAN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>SPAN _ CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>SPAN CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER _ CSE228 _ RUN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER CSE228 RUN</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ TIME _ TIMEPERIOD</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 TIME TIMEPERIOD</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CALENDARMONTH _ RETURN _ COMPLETE _ CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CALENDARMONTH RETURN COMPLETE CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>DURATION _ CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>DURATION CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ LENGTH</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 LENGTH</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH _ CSE228 _ COURSE</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH CSE228 COURSE</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH _ CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH CSE228</pattern>
+	<template><srai>DURATION E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>DURATION E228</pattern>
+	<template>
+		<random>
+			<li>$CSE228 is a Full Semester course. </li>
+			<li>$It's a Full Semester course . </li>
+			<li>$CSE228 is Full Semester long . </li>
+			<li>$Full Semester. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>HOME _ PAGE _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>HOME PAGE CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>HOMEPAGE _ LINK _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>HOMEPAGE LINK CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ WEBSITE _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>TELL WEBSITE CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ LINK _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN LINK CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>LINK _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>LINK CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>KNOW _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>KNOW CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ PROFILE _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN PROFILE CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSITE _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSITE CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ WEBSITE _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN WEBSITE CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>URL _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>URL CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>DISCOVERY _ INFORMATION _ CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>DISCOVERY INFORMATION CSE228</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ URL</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 URL</pattern>
+	<template><srai>HOMEPAGE E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>HOMEPAGE E228</pattern>
+	<template>
+		<random>
+			<li>$Please visit http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF for more information on CSE228</li>
+			<li>$Please visit http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF for more information on ADA Lab</li>
+			<li>$The course page is http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+			<li>$Course Website is http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+			<li>$http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>PREREQUISTE _ CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTE CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ BASH _ CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE BASH CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ PREREQUISTE</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 PREREQUISTE</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ PREREQUISTES</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 PREREQUISTES</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQ _ CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQ CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTES _ CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTES CSE228</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 _ PREREQ</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<category>
+	<pattern>CSE228 PREREQ</pattern>
+	<template><srai>PREREQUISITES E228</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>PREREQUISITES E228</pattern>
+	<template>
+		<random>
+			<li>$Prerequisites: None</li>
+			<li>$You should have completed None to register for CSE228</li>
+			<li>$You should have completed None to register for ADA Lab</li>
+			<li>$None. </li>
+		</random>
+	</template>
+</category>
+
+</aiml>

@@ -1,0 +1,2988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCT _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCT CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>OVERSEE _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>OVERSEE CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ TEACH _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER TEACH CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCTS _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCTS CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISE _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISE CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCT _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCT CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ PROFESSOR _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>NAME PROFESSOR CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TAUGHT _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TAUGHT PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ TEACHER _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>NAME TEACHER CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TEACHER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TEACH _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TEACH TEACHER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>ASSIGN _ CLASS _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>ASSIGN CLASS CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCT _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCT CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCTS _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCTS CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TAUGHT</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TAUGHT</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ TEACH _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER TEACH CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSTRUCTS _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSTRUCTS CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCTS CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TEACH</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TEACH</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCT _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCT CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ TEACH _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TELL TEACH CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISOR _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUPERVISOR CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ INSTRUCTS _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR INSTRUCTS CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>INSTRUCT CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TEACH _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TEACH PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ INSRUCTING _ CSE222 _ SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER INSRUCTING CSE222 SEMESTER</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ SUPERVISOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 SUPERVISOR</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH _ CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACH CSE222</pattern>
+	<template><srai>INSTRUCTOR E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>INSTRUCTOR E222</pattern>
+	<template>
+		<random>
+			<li>$Professor Rajesh Wadhwani is teaching CSE222. </li>
+			<li>$Professor Rajesh Wadhwani will be teaching CSE222. </li>
+			<li>$Instructor of CSE222 is Professor Rajesh Wadhwani. </li>
+			<li>$CSE222 is running under instruction of Professor Rajesh Wadhwani. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ HOURS _ GIVE _ CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY HOURS GIVE CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ WORTH _ MANY _ CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 WORTH MANY CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>KITNE _ CREDITS _ KA _ HAI _ CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>KITNE CREDITS KA HAI CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ CREDITS _ CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER CREDITS CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ CREDITS _ ADDITION</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 CREDITS ADDITION</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ WORTH _ NUMBER _ CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 WORTH NUMBER CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ CSE222 _ WORTH</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS CSE222 WORTH</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CREDITS _ CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CREDITS CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ GIVE _ MANY _ CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 GIVE MANY CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUM _ HOURS _ GIVE _ WEEKLY _ CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUM HOURS GIVE WEEKLY CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CREDITS _ GET _ COMPLETE _ CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CREDITS GET COMPLETE CSE222</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>ADDITION _ CSE222 _ CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<category>
+	<pattern>ADDITION CSE222 CREDITS</pattern>
+	<template><srai>CREDITS E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>CREDITS E222</pattern>
+	<template>
+		<random>
+			<li>$CS E222 is worth 3 credits. </li>
+			<li>$CS E222 is of 3 credits. </li>
+			<li>$3 credits are awarded on successful completion of CSE222. </li>
+			<li>$3 credits. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>OUTLINE _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>OUTLINE CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER _ GO _ TEACH _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>TEACHER GO TEACH CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ PLAN _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE PLAN CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>GET _ LEARN _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>GET LEARN CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS _ SCREEN _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CONTENTS SCREEN CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ PROFESSOR _ TEACH _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>TELL PROFESSOR TEACH CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS _ INCLUDE _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS INCLUDE CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CONTENT _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CONTENT CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>ENLIGHTEN _ COMPLETE _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>ENLIGHTEN COMPLETE CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS _ SCREEN _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>THINGS SCREEN CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ TEACH _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR TEACH CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ COURSEOFSTUDY _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE COURSEOFSTUDY CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ COURSEOFSTUDY</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 COURSEOFSTUDY</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ OUTLINE</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 OUTLINE</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>LEARN _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>LEARN CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ SCOPE</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 SCOPE</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>EXPECT _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>EXPECT CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>SCOPE _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>SCOPE CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ GO _ TEACH _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR GO TEACH CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ SURVEY</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 SURVEY</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR _ EXPECT _ TEACH _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>PROFESSOR EXPECT TEACH CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY _ SCREEN _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY SCREEN CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY _ CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSEOFSTUDY CSE222</pattern>
+	<template><srai>SYLLABUS E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>SYLLABUS E222</pattern>
+	<template>
+		<random>
+			<li>$The syllabus for CSE222 is Central  processor  organizations:  basic  building  blocks,  bus  organized  computer  memory,  address structure,   register   transfer   languages,   instruction   formats, expanding op-codes  and   addressing   modes.   Control   unit organization:  hardwired control and micro-programmed control organization, control memory, address sequencing micro-instruction formats, micro-program   sequencer, micro-programming.   Arithmetic processor  design:  addition  and  subtraction  algorithm,  multiplication  algorithm,  division  algorithm, processor configuration, and  floating point arithmetic. Input-Output organization: Asynchronous Data Transfer, Asynchronous Communication Interface, Modes of Transfer: Interrupt-Initiated, Direct Memory Access (DMA).  Memory Organization:  Main   Memory, Auxiliary Memory, Associative Memory: Hardware Organization, Cache Memory:  Mapping Schemes, Virtual Memory: Address Space and Memory Space, Address Mapping. Structure of multiprocessors, Introduction to parallel processing, Flynn's classification, pipeline processing, pipeline hazards. </li>
+			<li>$Central  processor  organizations:  basic  building  blocks,  bus  organized  computer  memory,  address structure,   register   transfer   languages,   instruction   formats, expanding op-codes  and   addressing   modes.   Control   unit organization:  hardwired control and micro-programmed control organization, control memory, address sequencing micro-instruction formats, micro-program   sequencer, micro-programming.   Arithmetic processor  design:  addition  and  subtraction  algorithm,  multiplication  algorithm,  division  algorithm, processor configuration, and  floating point arithmetic. Input-Output organization: Asynchronous Data Transfer, Asynchronous Communication Interface, Modes of Transfer: Interrupt-Initiated, Direct Memory Access (DMA).  Memory Organization:  Main   Memory, Auxiliary Memory, Associative Memory: Hardware Organization, Cache Memory:  Mapping Schemes, Virtual Memory: Address Space and Memory Space, Address Mapping. Structure of multiprocessors, Introduction to parallel processing, Flynn's classification, pipeline processing, pipeline hazards is taught in CSE222. </li>
+			<li>$Prof. Rajesh Wadhwani will teach Central  processor  organizations:  basic  building  blocks,  bus  organized  computer  memory,  address structure,   register   transfer   languages,   instruction   formats, expanding op-codes  and   addressing   modes.   Control   unit organization:  hardwired control and micro-programmed control organization, control memory, address sequencing micro-instruction formats, micro-program   sequencer, micro-programming.   Arithmetic processor  design:  addition  and  subtraction  algorithm,  multiplication  algorithm,  division  algorithm, processor configuration, and  floating point arithmetic. Input-Output organization: Asynchronous Data Transfer, Asynchronous Communication Interface, Modes of Transfer: Interrupt-Initiated, Direct Memory Access (DMA).  Memory Organization:  Main   Memory, Auxiliary Memory, Associative Memory: Hardware Organization, Cache Memory:  Mapping Schemes, Virtual Memory: Address Space and Memory Space, Address Mapping. Structure of multiprocessors, Introduction to parallel processing, Flynn's classification, pipeline processing, pipeline hazards in CSE222. </li>
+			<li>$Central  processor  organizations:  basic  building  blocks,  bus  organized  computer  memory,  address structure,   register   transfer   languages,   instruction   formats, expanding op-codes  and   addressing   modes.   Control   unit organization:  hardwired control andmicro-programmed control organization, control memory, address sequencing micro-instruction formats, micro-program   sequencer, micro-programming.   Arithmetic processor  design:  addition  and  subtraction  algorithm,  multiplication  algorithm,  division  algorithm, processor configuration, and  floating point arithmetic. Input-Output organization: Asynchronous Data Transfer, Asynchronous Communication Interface, Modes of Transfer: Interrupt-Initiated, Direct Memory Access (DMA).  Memory Organization:  Main   Memory, Auxiliary Memory, Associative Memory: Hardware Organization, Cache Memory:  Mapping Schemes, Virtual Memory: Address Space and Memory Space, Address Mapping. Structure of multiprocessors, Introduction to parallel processing, Flynn's classification, pipeline processing, pipeline hazards. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CSE222 _ COURSE _ TITLE</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 COURSE TITLE</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CSE222 _ TITLE</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CSE222 TITLE</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ NAME</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 NAME</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TITLE _ CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TITLE CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ COURSE _ NAME</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 COURSE NAME</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ NAME _ CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE NAME CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ NAME _ CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN NAME CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ CODE _ CSE222 _ NAME</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CODE CSE222 NAME</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>NAME _ CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>NAME CSE222</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TITLE</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TITLE</pattern>
+	<template><srai>TITLE E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>TITLE E222</pattern>
+	<template>
+		<random>
+			<li>$The course name of CSE222 is Computer Architecture. </li>
+			<li>$The course title of CSE222 is Computer Architecture. </li>
+			<li>$Course code CSE222 is Computer Architecture. </li>
+			<li>$CSE222 is Computer Architecture. </li>
+			<li>$Computer Architecture. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ STATISTICS _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT STATISTICS CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RETURN _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RETURN CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ SURVEY _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT SURVEY CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ SURVEY _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT SURVEY CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ SURVEY _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT SURVEY CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ STATS _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT STATS CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ STUDENT _ RETURN _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER STUDENT RETURN CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ USE _ CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT USE CSE222</pattern>
+	<template><srai>STUDENTSTRENGTH E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>STUDENTSTRENGTH E222</pattern>
+	<template>
+		<random>
+			<li>$There are 184 students in CSE222. </li>
+			<li>$There are 184 students in Computer Architecture. </li>
+			<li>$184 students are enrolled in CSE222. </li>
+			<li>$184 students are enrolled in Computer Architecture. </li>
+			<li>$184 students have signed up for CSE222. </li>
+			<li>$184 students have signed up for Computer Architecture. </li>
+			<li>$The student strength of CSE222 is 184. </li>
+			<li>$The student strength of Computer Architecture is 184. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ CLASS _ RETURN</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 CLASS RETURN</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TIME _ SLOT</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TIME SLOT</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ RETURN</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 RETURN</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ LECTURE _ CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE LECTURE CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE222 _ LECTURE</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE222 LECTURE</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ CSE222 _ CLASS _ RETURN</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME CSE222 CLASS RETURN</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ SLOT _ CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME SLOT CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TOPOGRAPHICPOINT _ CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TOPOGRAPHICPOINT CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE _ CSE222 _ CLASS</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>VENUE CSE222 CLASS</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ VENUE</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 VENUE</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME CSE222</pattern>
+	<template><srai>VENUE E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>VENUE E222</pattern>
+	<template>
+		<random>
+			<li>$The venue is New Teaching Block and timeslot is 1 hour for CSE222. </li>
+			<li>$The venue is New Teaching Block and timeslot is 1 hour for CSE222. </li>
+			<li>$The classes are held in New Teaching Block and timeslot is 1 hour for CSE222. </li>
+			<li>$The classes are held in New Teaching Block and timeslot is 1 hour for CSE222. </li>
+			<li>$The venue and timeslot are New Teaching Block and 1 hour respectively for CSE222. </li>
+			<li>$The venue and timeslot are New Teaching Block and 1 hour respectively for CSE222. </li>
+			<li>$The venue is New Teaching Block, the timeslot is 1 hour for CSE222. </li>
+			<li>$The venue is New Teaching Block, the timeslot is 1 hour for CSE222. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ AP _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AP CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AP CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>AP _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>AP CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AP _ CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AP CS747</pattern>
+	<template><srai>GRADE_AP E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AP E222</pattern>
+	<template>
+		<random>
+			<li>$AP grade for exceptional performance was given to 1 student in CSE222, 2014. </li>
+			<li>$AP grade for exceptional performance was given to 1 student in Computer Architecture, 2014. </li>
+			<li>$1 student got AP grade for exceptional performance in CSE222, 2014. </li>
+			<li>$1 student got AP grade for exceptional performance in Computer Architecture, 2014. </li>
+			<li>$Number of students getting AP grade was 1 for exceptional performance in CSE222, 2014. </li>
+			<li>$Number of students getting AP grade was 1 for exceptional performance in Computer Architecture, 2014. </li>
+			<li>$1. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AA CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>AA _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>AA CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AA CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ AA _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AA CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AA _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AA CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>AA _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<category>
+	<pattern>AA CLASS CS747</pattern>
+	<template><srai>GRADE_AA E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AA E222</pattern>
+	<template>
+		<random>
+			<li>$AA grade was given to 9 students in CSE222, 2014. </li>
+			<li>$AA grade was given to 9 students in Computer Architecture, 2014. </li>
+			<li>$9 students got AA grade in CSE222, 2014. </li>
+			<li>$9 students got AA grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting AA grade was 9 in CSE222, 2014. </li>
+			<li>$Number of students getting AA grade was 9 in Computer Architecture, 2014. </li>
+			<li>$9. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ AB _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY AB CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AB CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>AB _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>AB CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT AB CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AB _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AB CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ AB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET AB CLASS CS747</pattern>
+	<template><srai>GRADE_AB E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_AB E222</pattern>
+	<template>
+		<random>
+			<li>$AB grade was given to 14 students in CSE222, 2014. </li>
+			<li>$AB grade was given to 14 students in Computer Architecture, 2014. </li>
+			<li>$14 students got AB grade in CSE222, 2014. </li>
+			<li>$14 students got AB grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting AB grade was 14 in CSE222, 2014. </li>
+			<li>$Number of students getting AB grade was 14 in Computer Architecture, 2014. </li>
+			<li>$14. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BB CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BB CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>BB _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>BB CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BB _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BB CLASS CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BB _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BB CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ BB _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY BB CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_BB E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_BB E222</pattern>
+	<template>
+		<random>
+			<li>$BB grade was given to 35 students in CSE222, 2014. </li>
+			<li>$BB grade was given to 35 students in Computer Architecture, 2014. </li>
+			<li>$35 students got BB grade in CSE222, 2014. </li>
+			<li>$35 students got BB grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting BB grade was 35 in CSE222, 2014. </li>
+			<li>$Number of students getting BB grade was 35 in Computer Architecture, 2014. </li>
+			<li>$35. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BC CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>BC _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>BC CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BC CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ BC _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY BC CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BC _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BC CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ BC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT BC CLASS CS747</pattern>
+	<template><srai>GRADE_BC E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_BC E222</pattern>
+	<template>
+		<random>
+			<li>$BC grade was given to 21 students in CSE222, 2014. </li>
+			<li>$BC grade was given to 21 students in Computer Architecture, 2014. </li>
+			<li>$21 students got BC grade in CSE222, 2014. </li>
+			<li>$21 students got BC grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting BC grade was 21 in CSE222, 2014. </li>
+			<li>$Number of students getting BC grade was 21 in Computer Architecture, 2014. </li>
+			<li>$21. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CC CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CC _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CC CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>CC _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>CC CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CC CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>CC _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>CC CLASS CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CC _ CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CC CS747</pattern>
+	<template><srai>GRADE_CC E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_CC E222</pattern>
+	<template>
+		<random>
+			<li>$CC grade was given to 2 students in CSE222, 2014. </li>
+			<li>$CC grade was given to 2 students in Computer Architecture, 2014. </li>
+			<li>$2 students got CC grade in CSE222, 2014. </li>
+			<li>$2 students got CC grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting CC grade was 2 in CSE222, 2014. </li>
+			<li>$Number of students getting CC grade was 2 in Computer Architecture, 2014. </li>
+			<li>$2. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CD CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CD _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CD CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE CD CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ CD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE CD CLASS CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>CD _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>CD CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ CD _ CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT CD CS747</pattern>
+	<template><srai>GRADE_CD E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_CD E222</pattern>
+	<template>
+		<random>
+			<li>$CD grade was given to 2 students in CSE222, 2014. </li>
+			<li>$CD grade was given to 2 students in Computer Architecture, 2014. </li>
+			<li>$2 students got CD grade in CSE222, 2014. </li>
+			<li>$2 students got CD grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting CD grade was 2 in CSE222, 2014. </li>
+			<li>$Number of students getting CD grade was 2 in Computer Architecture, 2014. </li>
+			<li>$2. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DD CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DD _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DD CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DD CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>DD _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>DD CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DD _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DD CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DD _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DD CLASS CS747</pattern>
+	<template><srai>GRADE_DD E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_DD E222</pattern>
+	<template>
+		<random>
+			<li>$DD grade was given to 8 students in CSE222, 2014. </li>
+			<li>$DD grade was given to 8 students in Computer Architecture, 2014. </li>
+			<li>$8 students got DD grade in CSE222, 2014. </li>
+			<li>$8 students got DD grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting DD grade was 8 in CSE222, 2014. </li>
+			<li>$Number of students getting DD grade was 8 in Computer Architecture, 2014. </li>
+			<li>$8. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DX CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>DX _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>DX CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DX CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ DX _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET DX CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DX _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DX CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ DX _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE DX CLASS CS747</pattern>
+	<template><srai>GRADE_DX E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_DX E222</pattern>
+	<template>
+		<random>
+			<li>$DX grade was given to 0 students in CSE222, 2014. </li>
+			<li>$DX grade was given to 0 students in Computer Architecture, 2014. </li>
+			<li>$0 students got DX grade in CSE222, 2014. </li>
+			<li>$0 students got DX grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting DX grade was 0 in CSE222, 2014. </li>
+			<li>$Number of students getting DX grade was 0 in Computer Architecture, 2014. </li>
+			<li>$0. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>STUDENT _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT FR CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET FR CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ FR _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE FR CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ FR _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY FR CLASS GIVE CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ GET _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT GET FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ FR _ CLASS _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE FR CLASS CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>FR _ CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<category>
+	<pattern>FR CS747</pattern>
+	<template><srai>GRADE_FR E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADE_FR E222</pattern>
+	<template>
+		<random>
+			<li>$FR grade was given to 3 students in CSE222, 2014. </li>
+			<li>$FR grade was given to 3 students in Computer Architecture, 2014. </li>
+			<li>$3 students got FR grade in CSE222, 2014. </li>
+			<li>$3 students got FR grade in Computer Architecture, 2014. </li>
+			<li>$Number of students getting FR grade was 3 in CSE222, 2014. </li>
+			<li>$Number of students getting FR grade was 3 in Computer Architecture, 2014. </li>
+			<li>$3. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CLASS _ STATS _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS STATS CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>NUMBER CLASS GIVE CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CLASS _ GIVE _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CLASS GIVE CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ STUDENT _ RECEIVE _ AP _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY STUDENT RECEIVE AP CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE _ CLASS _ STATISTICS _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE CLASS STATISTICS CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT _ RECEIVE _ AP _ CLASS _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>STUDENT RECEIVE AP CLASS CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE _ SCALING _ STATS _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>COLLECTIVE SCALING STATS CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS _ STATISTICS _ CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CLASS STATISTICS CS747</pattern>
+	<template><srai>GRADES E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>GRADES E222</pattern>
+	<template>
+		<random>
+			<li>$The grading statistics for CSE222, 2014 are:- [AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+			<li>$The grading statistics for Computer Architecture, 2014 are:- [AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+			<li>$[AP:1], [AA:9], [AB:14], [BB:35], [BC:21], [CC:2], [CD:2], [DD:8], [DX:0], [FR:3]. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>CSE222 _ SURVEY _ MATERIAL</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 SURVEY MATERIAL</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ MENTION</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 MENTION</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUGGEST _ GOOD _ BOOK _ CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>SUGGEST GOOD BOOK CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ BOOK</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 BOOK</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY _ MATERIAL _ CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>SURVEY MATERIAL CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK _ CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>READ _ CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>READ CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>MENTION _ CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>MENTION CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK _ RECOMMEND _ CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<category>
+	<pattern>BOOK RECOMMEND CSE222</pattern>
+	<template><srai>REFERENCES E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>REFERENCES E222</pattern>
+	<template>
+		<random>
+			<li>$The references are 1. Computer Organization and architecture William Stallings 2. Computer Architecture Morris Mano, 3. Computer Organisation and Architecture T.K. Ghosh,  for CSE222. </li>
+			<li>$The references are 1. Computer Organization and architecture William Stallings 2. Computer Architecture Morris Mano, 3. Computer Organisation and Architecture T.K. Ghosh,  for Computer Architecture. </li>
+			<li>$References according to Professor Rajesh Wadhwani are 1. Computer Organization and architecture William Stallings 2. Computer Architecture Morris Mano, 3. Computer Organisation and Architecture T.K. Ghosh,  for CSE222. </li>
+			<li>$1. Computer Organization and architecture William Stallings 2. Computer Architecture Morris Mano, 3. Computer Organisation and Architecture T.K. Ghosh, . </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TYPE _ CSE222 _ COURSE</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE CSE222 COURSE</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ THEORY _ LAB</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 THEORY LAB</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TYPE</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TYPE</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE _ CSE222</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TYPE CSE222</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ LAB _ THEORY</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 LAB THEORY</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ THEORY _ COURSE _ LAB</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 THEORY COURSE LAB</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>THEORY _ LAB _ CSE222</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>THEORY LAB CSE222</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>LAB _ THEORY _ CSE222</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<category>
+	<pattern>LAB THEORY CSE222</pattern>
+	<template><srai>TYPE E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>TYPE E222</pattern>
+	<template>
+		<random>
+			<li>$CSE222 is a Theory course. </li>
+			<li>$It's a Theory course . </li>
+			<li>$Theory. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TIME _ TIMEPERIOD _ CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME TIMEPERIOD CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>MUCH _ SEMESTER _ CSE222 _ RETURN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>MUCH SEMESTER CSE222 RETURN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME _ DURATION _ CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>TIME DURATION CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ DAYS _ CSE222 _ RUN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY DAYS CSE222 RUN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ DURATION</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 DURATION</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER _ CSE222 _ GET _ STRETCH</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER CSE222 GET STRETCH</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ SPAN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 SPAN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>SPAN _ CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>SPAN CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER _ CSE222 _ RUN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>HANKER CSE222 RUN</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ TIME _ TIMEPERIOD</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 TIME TIMEPERIOD</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY _ CALENDARMONTH _ RETURN _ COMPLETE _ CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>MANY CALENDARMONTH RETURN COMPLETE CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>DURATION _ CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>DURATION CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ LENGTH</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 LENGTH</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH _ CSE222 _ COURSE</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH CSE222 COURSE</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH _ CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<category>
+	<pattern>LENGTH CSE222</pattern>
+	<template><srai>DURATION E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>DURATION E222</pattern>
+	<template>
+		<random>
+			<li>$CSE222 is a Full Semester course. </li>
+			<li>$It's a Full Semester course . </li>
+			<li>$CSE222 is Full Semester long . </li>
+			<li>$Full Semester. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>HOME _ PAGE _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>HOME PAGE CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>HOMEPAGE _ LINK _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>HOMEPAGE LINK CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TELL _ WEBSITE _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>TELL WEBSITE CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ LINK _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN LINK CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>LINK _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>LINK CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>KNOW _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>KNOW CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ PROFILE _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN PROFILE CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSITE _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSITE CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN _ WEBSITE _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>ACADEMICIAN WEBSITE CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>URL _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>URL CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>DISCOVERY _ INFORMATION _ CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>DISCOVERY INFORMATION CSE222</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ URL</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 URL</pattern>
+	<template><srai>HOMEPAGE E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>HOMEPAGE E222</pattern>
+	<template>
+		<random>
+			<li>$Please visit http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF for more information on CSE222</li>
+			<li>$Please visit http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF for more information on Computer Architecture</li>
+			<li>$The course page is http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+			<li>$Course Website is http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+			<li>$http://manit.ac.in/Year%202016/Scheme%20and%20syllabus/B.Tech._Computer_Science_Engineering.PDF. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>PREREQUISTE _ CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTE CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE _ BASH _ CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE BASH CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ PREREQUISTE</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 PREREQUISTE</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ PREREQUISTES</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 PREREQUISTES</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQ _ CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQ CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTES _ CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>PREREQUISTES CSE222</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 _ PREREQ</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<category>
+	<pattern>CSE222 PREREQ</pattern>
+	<template><srai>PREREQUISITES E222</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>PREREQUISITES E222</pattern>
+	<template>
+		<random>
+			<li>$Prerequisites: None</li>
+			<li>$You should have completed None to register for CSE222</li>
+			<li>$You should have completed None to register for Computer Architecture</li>
+			<li>$None. </li>
+		</random>
+	</template>
+</category>
+
+</aiml>
