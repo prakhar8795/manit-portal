@@ -1,0 +1,40 @@
+#profileImage {
+	margin-top: 5px ;
+}
+
+#user-profile-tab {
+	padding-left: 50px ;
+	border: 1px solid red ;
+}
+
+#profileImage > img {
+	height: 230px ;
+	width: 250px ;
+}
+
+#user-academic-details > div {
+	font-size: 16px ;
+	font-family: Arial ;
+}
+
+.user-details {
+	margin-bottom: 5px;
+}
+
+.text-primary {
+	color: rgb(24,24,24);
+}
+
+.two-thirds {
+	width: 66.67% ;
+}
+
+hr {
+	margin-top: 10px !important ;
+	margin-bottom: 10px !important ;
+}
+
+dl {
+	margin-top: 5px ;
+	margin-bottom:5px ;
+}

@@ -1,0 +1,64 @@
+﻿html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	border-top: 5px solid blue;
+	margin-bottom: 40px;
+	border-top: 5px solid blue;
+}
+
+#divSchNo {
+	margin: 0px 70px;
+}
+
+#panelResult {
+	margin: 20px 70px;
+}
+
+.detailTable {
+	display: table;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.detailRow {
+	display: table-row;
+	height: 25px;
+}
+
+.detailCell1 {
+	display: table-cell;
+	width: 10%;
+	text-align: right;
+	padding: 10px;
+}
+
+.detailCell2 {
+	display: table-cell;
+	width: 40%;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.detailCell2 span {
+	font-size: larger;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+body > footer {
+	text-align: center;
+	background-color: #eeeeee;
+	margin-top: 20px;
+	padding: 10px 0px;
+}

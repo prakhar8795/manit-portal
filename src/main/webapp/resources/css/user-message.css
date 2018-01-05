@@ -1,0 +1,91 @@
+#chat-name {
+	text-align: center ;
+	padding-top: 5px ;
+	margin-bottom: 0px ;
+	padding-bottom:0px ;
+}
+
+.message-icon {
+	border-radius: 50% ;
+	height: 50px ;
+	width: 50px ;
+}
+
+.message-icon-small {
+	border-radius: 30% ;
+	height: 25px ;
+	width: 25px ;
+}
+
+.message-recieved {
+	text-align: left ;
+}
+
+.message-recieved>label {
+	background: #ffd17a ;
+	padding: 6px ;
+	border-radius: 5px ;
+}
+
+.message-sent {
+	text-align: right ;
+}
+
+.message-sent>label {
+	background: #92baec ;
+	padding: 6px;
+	border-radius: 5px ;
+}
+
+.message {
+	margin-bottom: 10px ;
+	margin-left: 5px ;
+	margin-right: 5px ;
+}
+
+
+
+.message-icon-container {
+	padding: 0px ;
+	
+	text-align: center ;
+}
+
+.message-block-container {
+	padding: 4px ;
+}
+
+.message-block-container-new {
+	padding: 4px ;
+}
+
+.message-name {
+	height: 40px ;
+	margin-top:5px ;
+	padding-top: 5px ;
+}
+
+#user-message-container>div {
+	margin-top: 0px ;	 
+}
+
+#message-title {
+	font-size: 18px ; 
+	height: 40px ;
+	border-right: 1px solid black;
+}
+
+#message-chat {
+	font-size: 18px ; 
+	height: 40px ;
+}
+
+body {
+	overflow:hidden;
+}
+
+hr {
+	margin-top: 5px ;
+	margin-bottom: 5px;
+	padding: 0px !important;
+}
